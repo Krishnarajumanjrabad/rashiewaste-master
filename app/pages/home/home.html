@@ -1,0 +1,179 @@
+<ion-header>
+  <ion-navbar danger> <!-- <div class="bar bar-header bar-positive">
+	<button class="button icon ion-navicon"></button>
+	<h1 class="title">Header Buttons</h1>
+	<button class="button icon ion-home"></button>
+</div> -->
+    <ion-grid>
+      <ion-row>
+        <ion-col width-15>
+          <img style="height: 50px; width: 50px;" src="build/images/recycleLogo.jpg"/></ion-col>
+        <ion-col
+          width-75> <span style="align: center;"><h3 style="color:white">Rashi
+		E Waste Solutions</h3></span></ion-col>
+        <ion-col width-10><img src="build/images/logout.jpg"
+                               style="position:absolute; top:10px; right:10px; height: 25px; width: 25px; align-items: flex-end;"
+                               (click)="logout()"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <div>
+      <span
+        style=" position: absolute;top: 55px; right: 3px; text-align: right; color: white;"><small>Welcome {{user.name}}</small></span>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+  <!--
+  <div class="card  text-justify">
+      <ion-slides [options]="mySlideOptions" danger>
+       <ion-slide	style=" background-color:#5aeb07" >
+      <images src="images/wasteHeader1.jpg" />
+      <h5 style="color:white">Sell Laptops, Desktops and other electronic items to wholesale Dealers</h5>
+      </ion-slide> <ion-slide style=" background-color:#5aeb07" > <images
+          src="images/wasteHeader2.jpg" />
+      <h5 style="color:white">Refurbished computers and IT support services to rural schools</h5>
+      </ion-slide> <ion-slide style=" background-color:#5aeb07" > <images
+          src="images/wasteLastImage.jpg" />
+      <h5 style="color:white">Recycle CFL Bulbs and Tubes scientifically through a well designed machine for the first time in India</h5>
+      </ion-slide> <ion-slide style=" background-color:#5aeb07" > <images
+          src="images/LastImage.jpg" />
+      <h5 style="color:white">One Stop Electronic Waste Solution providers in the business of trading electronic waste</h5>
+      </ion-slide> <ion-slide style=" background-color:#5aeb07" > <images
+          src="images/ewasteLastImage.jpg" />
+      <h5 style="color:white">Pick up all your E Waste to create a better environment</h5>
+      </ion-slide> </ion-slides>
+
+      <h3>One Stop Electronic Waste Solution providers in the business of trading electronic waste. </h3>
+      <div class="item">
+          <ul>
+              <li>Pick up all your E Waste to create a better environment</li>
+              <li>Providing refurbished computers and IT support services to
+                  rural schools</li>
+              <li>We also sell Laptops, Desktops and other electronic items to
+                  wholesale Dealers</li>
+              <li>We do recycle CFL Bulbs and Tubes scientifically through a
+                  well designed machine for the first time in India.</li>
+          </ul>
+      </div>
+
+      <div class="item item-wrap">
+          <h3>Rashi E Waste Pvt Ltd Company is started by an Ex-IBMer & the company
+          is well-positioned to professionally manage your E Scrap life-cycle
+          for Bifurcation, Identification, Recycling and disposal.</h3>
+      </div>
+      <div class="item item-wrap">
+          <ul>
+              <li>Rashi E Waste is to manage receipt of E Waste (Pick-up),
+                  segregation <ion-icon name="arrow-dropright-circle"></ion-icon>
+              </li>
+              <li>Reusable machines and Reusable Parts, Reusable <ion-icon
+                      name="arrow-dropright-circle"></ion-icon> Refurbished & Resale,
+              </li>
+              <li>Reusable Parts<ion-icon name="arrow-dropright-circle"></ion-icon>
+                  assembled to make working units,
+              </li>
+              <li>Segregation <ion-icon name="arrow-dropright-circle"></ion-icon> Non
+                  working parts are dismantled and taken into the route of Recycling.
+              </li>
+
+          </ul>
+
+      </div>
+
+
+  </div>-->
+  <ion-grid>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openFaceBook()">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </button>
+        <ion-label align="center">Face Book</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openGallery()">
+          <ion-icon name="camera"></ion-icon>
+        </button>
+        <ion-label align="center">Gallary</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openChat()">
+          <ion-icon name="chatbubbles"></ion-icon>
+        </button>
+        <ion-label align="center">Chat Us</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openEnquiryForm()">
+          <ion-icon name="clipboard"></ion-icon>
+        </button>
+        <ion-label align="center">Enquiry</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="contactUs()">
+          <ion-icon name="contacts"></ion-icon>
+        </button>
+        <ion-label align="center">Contact Us</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openFeedback()">
+          <ion-icon name="create"></ion-icon>
+        </button>
+        <ion-label align="center">Tell Us</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="sendPhotosInformation()">
+          <ion-icon name="images"></ion-icon>
+        </button>
+        <ion-label align="center">Send Photos</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="loadMap()">
+          <!--//<button large danger full block (click)="loadMap()">-->
+          <ion-icon name="navigate"></ion-icon>
+        </button>
+        <ion-label align="center">Locate Us</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="loadAppointment()">
+          <ion-icon name="book"></ion-icon>
+        </button>
+        <ion-label align="center">Appointments</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openTwitter()">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </button>
+        <ion-label align="center">Twitter</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openEventsPage()">
+          <ion-icon name="list-box"></ion-icon>
+        </button>
+        <ion-label align="center">Events</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openServicePage()">
+          <ion-icon name="paper"></ion-icon>
+        </button>
+        <ion-label align="center">Services</ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar secondary>
+    <ion-title text-left padding>
+      <small><img src="build/images/copyright.jpg" style="height:13px;width:13px;"/>2013 Rashi E Waste. All Rights
+        Reserved.
+      </small>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

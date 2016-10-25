@@ -1,0 +1,78 @@
+<!--
+  Generated template for the SignupPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar danger>
+    <ion-title>Sign Up</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="signupForm">
+
+
+    <ion-list>
+      <ion-item>
+        <ion-label stacked><span class="input-label">Email</span></ion-label>
+        <ion-input type="email" placeholder="Please enter the valid email id" formControlName="email"></ion-input>
+
+      </ion-item>
+      <div *ngIf="email.hasError('required') && email.touched" class="error-box"> * Valid Email is required !</div>
+
+      <ion-item>
+        <ion-label stacked><span class="input-label">Name</span></ion-label>
+
+        <ion-input type="text" placeholder="Enter the company Name" formControlName="name"></ion-input>
+      </ion-item>
+      <div *ngIf="name.hasError('required') && name.touched" class="error-box"> * Name is required !</div>
+
+
+      <ion-item>
+        <ion-label stacked>
+          <span class="input-label">Company Name</span></ion-label>
+        <ion-input type="text" placeholder="Enter the company Name" formControlName="companyName"></ion-input>
+      </ion-item>
+      <div *ngIf="companyName.hasError('required') && companyName.touched" class="error-box"> * Company Name is required !</div>
+
+      <ion-item>
+        <ion-label stacked>
+          <span class="input-label">Address</span></ion-label>
+        <ion-textarea type="text" placeholder="Please specify company address" formControlName="address"></ion-textarea>
+      </ion-item>
+      <div *ngIf="address.hasError('required') && address.touched" class="error-box"> * Valid Company Address is required !</div>
+
+      <ion-item>
+        <ion-label stacked>
+          <span class="input-label">Contact Number</span></ion-label>
+        <ion-input type="text" placeholder="Enter the valid Phone number" formControlName="contactNumber"></ion-input>
+      </ion-item>
+      <div *ngIf="contactNumber.hasError('required') && contactNumber.touched" class="error-box"> * Contact Number is required !</div>
+
+
+      <ion-item>
+        <ion-label stacked>
+          <span class="input-label">Password</span></ion-label>
+        <ion-input type="password" placeholder="At least 6 characters" formControlName="password" ></ion-input>
+      </ion-item>
+      <div *ngIf="password.hasError('required') && password.touched" class="error-box"> * Password is required !</div>
+
+      <ion-item>
+        <ion-label stacked>
+          <span class="input-label">Confirm Password</span></ion-label>
+        <ion-input type="password" placeholder="At least 6 characters" formControlName="confirmPassword"></ion-input>
+      </ion-item>
+      <div *ngIf="confirmPassword.hasError('required') && confirmPassword.touched" class="error-box"> * confirm password is required !</div>
+    <!--  <div *ngIf="((password != null && confirmPassword != null) && (password != confirmPassword) )">* please check the password are matching !</div>-->
+    </ion-list>
+    <button type="button" class="button button-danger bar-button-danger" [disabled]="!signupForm.valid" block
+            (click)="signUp(signupForm.value)"><span
+      style="color: black">Submit</span></button>
+  </form>
+
+</ion-content>

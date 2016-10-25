@@ -1,0 +1,21 @@
+.home {
+  .icon {
+    font-size: 50px;
+  }
+  ion-slide {
+    background-color: #32db64;
+  }
+
+  ion-slide img {
+    height: 50vh !important;
+    width: 80vh !important;
+  }
+
+  .displayName {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: right;
+    color: white;
+  }
+}

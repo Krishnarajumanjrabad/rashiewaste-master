@@ -1,0 +1,92 @@
+<!--
+  Generated template for the EnquiryFormPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar danger>
+    <ion-title><span style="color: white"><h4>Enquiry Form</h4></span></ion-title>
+    <div>
+      <span
+        style=" position: absolute;top: 30px; right: 5px; text-align: right; color: white;"><button ion-button small
+                                                                                                    danger end
+                                                                                                    (click)="retrieveEnquiries()"><span
+        style="color: white">GetEnquries</span> </button></span>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div *ngIf="enquriesList != null && enquriesList.length > 0" class="row">
+    <h4> Displaying the enquiry information for Admin User only</h4>
+    <ion-grid>
+      <ion-row>
+        <ion-col width-20><strong>Name</strong></ion-col>
+        <ion-col width-20><strong>Email </strong></ion-col>
+        <ion-col width-20><strong>Contact Number</strong></ion-col>
+        <ion-col width-20><strong>Comments</strong></ion-col>
+        <ion-col width-20><strong>Action</strong></ion-col>
+      </ion-row>
+      <ion-row *ngFor="let enquires of enquriesList; let i = index">
+
+        <ion-col width-20>{{enquires.name}}</ion-col>
+        <ion-col width-20>{{enquires.email}}</ion-col>
+        <ion-col width-20>{{enquires.telephone}}</ion-col>
+        <ion-col width-20>{{enquires.comment}}</ion-col>
+        <ion-col width-20>
+          <button class="button-small" (click)="removeEnquiry(enquires, i)">Remove</button>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+  <form [formGroup]="enquiryForm" danger>
+    <ion-item>
+      <ion-label stacked><span class="input-label">Name</span></ion-label>
+      <ion-input type="text" value="" formControlName="name" placeholder="Your Name" value=""></ion-input>
+    </ion-item>
+    <div *ngIf="name.hasError('required') && name.touched" class="error-box"> * Name is required !</div>
+
+    <ion-item>
+      <ion-label stacked><span class="input-label">Email</span></ion-label>
+      <ion-input type="email" value="" formControlName="email" placeholder="Your Email Id" value=""></ion-input>
+    </ion-item>
+    <div *ngIf="email.hasError('required') && email.touched" class="error-box"> * Email Id is required !</div>
+
+    <ion-item>
+      <ion-label stacked><span class="input-label">Telephone</span></ion-label>
+      <ion-input type="text" formControlName="telephone" placeholder="Your Contact Number" value=""></ion-input>
+    </ion-item>
+    <div *ngIf="telephone.hasError('required') && telephone.touched" class="error-box"> * Telephone is required !</div>
+
+    <ion-item>
+      <ion-label stacked><span class="input-label">Comments</span></ion-label>
+      <ion-textarea type="text" formControlName="comment" placeholder="Your Comments Here" value=""></ion-textarea>
+    </ion-item>
+    <div *ngIf="comment.hasError('required') && comment.touched" class="error-box"> * Comments is required !</div>
+    <p></p>
+    <ion-grid>
+      <ion-row>
+        <ion-col width-50>
+          <button type="button" class="button button-danger bar-button-danger" [disabled]="!enquiryForm.valid" block
+                  (click)="enquirySubmit(enquiryForm.value)"><span
+            style="color: black">Send</span></button>
+        </ion-col>
+        <ion-col width-50>
+          <button type="reset" class="button button-danger bar-button-danger" block><span
+            style="color: black">Clear</span>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <!-- <button type="button" class="button button-danger bar-button-danger" [disabled]="!loginForm.valid" block (click)="login(loginForm.value)"><span
+       style="color: black">Submit</span></button>-->
+
+  </form>
+</ion-content>

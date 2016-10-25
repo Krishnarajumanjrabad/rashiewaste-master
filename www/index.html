@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ionic</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.log('Error', err));
+    }
+  </script>-->
+
+  <link ios-href="build/css/app.ios.css" rel="stylesheet">
+  <link md-href="build/css/app.md.css" rel="stylesheet">
+  <link wp-href="build/css/app.wp.css" rel="stylesheet">
+
+</head>
+<body>
+<!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBLKNmmpW47TtzL3qKAN8N6I1oll93jGYQ"></script>-->
+<!-- This is Ionic's root component, where the app will load -->
+<ion-app></ion-app>
+
+<!-- cordova.js required for cordova apps -->
+ <!--<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+-->
+<!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBLKNmmpW47TtzL3qKAN8N6I1oll93jGYQ&sensor=false"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLKNmmpW47TtzL3qKAN8N6I1oll93jGYQ&sensor=false"></script>
+<!--<script src="socket.io.js"></script>-->
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script src="cordova.js"></script>
+<script src="pouchdb.js"></script>
+<!--<script src="pouchdb.lru-cache.min.js"></script>-->
+
+
+<!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBLKNmmpW47TtzL3qKAN8N6I1oll93jGYQ&sensor=false"></script>-->
+<!--<script src="https://maps.google.com/maps/api/js?sensor=true"></script>-->
+<!-- Polyfill needed for platforms without Promise and Collection supportp-->
+<script src="build/js/es6-shim.min.js"></script>
+<!-- Zone.js and Reflect-metadata  -->
+<script src="build/js/Reflect.js"></script>
+<script src="build/js/zone.js"></script>
+<!-- The bundle which is built from the app's source code -->
+<script src="build/js/app.bundle.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+<!--  <script src="https://maps.google.com/maps/api/js"></script>-->
+
+<!--
+ <script src="https://maps.google.com/maps/api/js?sensor=true"></script>&ndash;&gt;
+-->
+</body>
+</html>

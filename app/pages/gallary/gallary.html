@@ -1,0 +1,38 @@
+<!--
+  Generated template for the GallaryPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar danger>
+    <ion-title><span style="color: white"><h4>Photo Gallary</h4></span></ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div>
+    <input type="file" multiple #input/>
+
+    <button class="button-small" (click)="fileUpload()" danger>Upload File</button>
+  </div>
+
+
+  <ion-grid>
+    <ion-row *ngIf="gallaryImages.length > 0" style="flex-wrap: wrap;">
+      <ion-col width-50 *ngFor="let imageinfo of gallaryImages">
+
+        <img style="height: 200px;width: 300px;align-items: left" [src]="'data:image/jpeg;base64,'+imageinfo.data"
+             (click)="imageTapped($event,imageinfo)"/>
+
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

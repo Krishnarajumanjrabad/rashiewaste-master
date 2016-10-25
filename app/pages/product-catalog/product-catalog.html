@@ -1,0 +1,146 @@
+<!--
+  Generated template for the ProductCatalogPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar danger>
+    <ion-title><span style="color: white"><h4>Online Shopping</h4></span></ion-title>
+    <button class="bar-button-solid-danger" small (click)="addProductCatalog" end>addProducts</button>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="productCatalogForm" danger>
+    <ion-card>
+      <ion-grid>
+        <ion-row no-padding>
+          <ion-col width-33>
+            <!-- <ion-card>-->
+            <ion-item>
+              <ion-card-title>
+                <h4>Catalog Info</h4>
+              </ion-card-title>
+            </ion-item>
+            <ion-item>
+              <ion-label stacked><span class="input-label">CataLog Name</span></ion-label>
+              <ion-input type="text" value="" formControlName="catalogName" placeholder="catalog Name...."
+                         value=""></ion-input>
+            </ion-item>
+            <!-- </ion-card>-->
+          </ion-col>
+          <ion-col width-33>
+            <!-- <ion-card>-->
+            <ion-item>
+              <ion-card-title>
+                <h4>Category Info</h4>
+              </ion-card-title>
+            </ion-item>
+            <ion-item>
+              <ion-label stacked><span class="input-label">Category Name</span></ion-label>
+              <ion-input type="text" value="" formControlName="categoryName" placeholder="Category Name...."
+                         value=""></ion-input>
+            </ion-item>
+            <!--</ion-card>-->
+          </ion-col>
+          <ion-col width-33>
+            <!-- <ion-card>-->
+            <ion-item>
+              <ion-card-title>
+                <h4>SubCategory Info</h4>
+              </ion-card-title>
+            </ion-item>
+            <ion-item>
+              <ion-label stacked><span class="input-label">SubCategory Name</span></ion-label>
+              <ion-input type="text" value="" formControlName="subCategoryName" placeholder="Sub Category Name...."
+                         value=""></ion-input>
+            </ion-item>
+            <!--</ion-card>-->
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-item align="center">
+        <ion-card-title>
+          <h4> Product Information </h4>
+        </ion-card-title>
+      </ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">Product Name</span></ion-label>
+            <ion-input type="text" value="" formControlName="productName" placeholder="Product Name...."
+                       value=""></ion-input>
+          </ion-col>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">Product Short Description</span></ion-label>
+            <ion-input type="text" value="" formControlName="productShortDesc" placeholder="Product Description...."
+                       value=""></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label stacked><span class="input-label">Product Long Description</span></ion-label>
+            <ion-textarea type="text" value="" formControlName="productLongDesc"
+                          placeholder="Product Long Description...."
+                          value=""></ion-textarea>
+          </ion-col>
+
+        </ion-row>
+        <ion-row>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">Product Brand</span></ion-label>
+            <ion-input type="text" value="" formControlName="productBrand" placeholder="Product Brand...."
+                       value=""></ion-input>
+          </ion-col>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">Product Type</span></ion-label>
+            <ion-input type="text" value="" formControlName="productType" placeholder="Product Type...."
+                       value=""></ion-input>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-item align="center">
+        <ion-card-title>
+          <h4> Inventory Information </h4>
+        </ion-card-title>
+      </ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">Inventory Name</span></ion-label>
+            <ion-input type="text" value="" formControlName="inventoryName" placeholder="Inventory Name...."
+                       value=""></ion-input>
+          </ion-col>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">Inventory Reorder Level</span></ion-label>
+            <ion-input type="text" value="" formControlName="inventoryROL" placeholder="Inventory Reorder level...."
+                       value=""></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label stacked><span class="input-label">Inventory Quantity</span></ion-label>
+            <ion-textarea type="text" value="" formControlName="inventoryQty"
+                          placeholder="Inventory Quantity...."
+                          value=""></ion-textarea>
+          </ion-col>
+
+        </ion-row>
+        <ion-row>
+          <ion-col width-50>
+            <ion-label stacked><span class="input-label">inventory created date</span></ion-label>
+           <!-- <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="eventForm.timeEnds"
+                          [ngModelOptions]="{standalone: true}"></ion-datetime>-->
+            <ion-datetime displayFormat="MMM DD YYYY" value="" formControlName="inventoryCurrentDate" placeholder="Inventory Current Date...."
+                       value=""></ion-datetime>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </form>
+</ion-content>

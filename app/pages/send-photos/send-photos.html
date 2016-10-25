@@ -1,0 +1,94 @@
+<!--
+  Generated template for the SendPhotosPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar danger>
+    <ion-title>Send Assets Photos Information</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="sendPhotoForm">
+    <ion-item>
+      <ion-label stacked><span class="input-label">Company Name</span></ion-label>
+      <ion-input type="text" value="" formControlName="companyName" placeholder="Enter the Company Name"
+                 value=""></ion-input>
+    </ion-item>
+    <div *ngIf="companyName.hasError('required') && companyName.touched" class="error-box"> * Company Name is required
+      !
+    </div>
+
+    <ion-item>
+      <ion-label stacked><span class="input-label">Contact Person</span></ion-label>
+      <ion-input type="text" formControlName="contactPerson" placeholder="Contact Person Name" value=""></ion-input>
+    </ion-item>
+    <div *ngIf="contactPerson.hasError('required') && contactPerson.touched" class="error-box"> *Contact Person is
+      required !
+    </div>
+
+    <ion-item>
+      <ion-label stacked><span class="input-label">Contact Number</span></ion-label>
+      <ion-input type="text" formControlName="contactNumber" placeholder="Contact Telephone Number"
+                 value=""></ion-input>
+    </ion-item>
+    <div *ngIf="contactNumber.hasError('required') && contactNumber.touched" class="error-box"> *Contact Telephone
+      Number is required !
+    </div>
+
+    <ion-item>
+      <!--  <ion-label stacked><span class="input-label">Upload Photos</span></ion-label>-->
+      <input type="file" multiple #input/>
+    </ion-item>
+
+
+    <p></p>
+    <ion-grid>
+      <ion-row>
+        <ion-col width-50>
+          <button type="button" class="button button-danger bar-button-danger" [disabled]="!sendPhotoForm.valid" block
+                  (click)="saveSendItems(sendPhotoForm.value)"><span
+            style="color: black">Submit</span></button>
+        </ion-col>
+        <ion-col width-50>
+          <button type="reset" class="button button-danger bar-button-danger" block><span
+            style="color: black">Clear</span>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <!-- <button type="button" class="button button-danger bar-button-danger" [disabled]="!loginForm.valid" block (click)="login(loginForm.value)"><span
+       style="color: black">Submit</span></button>-->
+
+  </form>
+  <p></p>
+  <p></p>
+
+  <ion-grid>
+    <ion-row *ngIf="sendPhotos != null" style="flex-wrap: wrap;">
+
+      <ion-col width-50 *ngFor="let imageinfo of sendPhotos">
+        {{imageInfo}}
+        <ion-card>
+          <img style="height: 200px;width: 300px;align-items: left"
+               [src]="'data:image/jpeg;base64,'+imageinfo.data"            />
+          <ion-card-content>
+            <ion-card-title>
+              <h5>{{imageinfo.company.companyName}}</h5>
+            </ion-card-title>
+            <p>Contact Person Name: {{imageinfo.company.contactName}}</p>
+            <p>Contact Number: {{imageinfo.company.contactNumber}}</p>
+          </ion-card-content>
+        </ion-card>
+
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>
