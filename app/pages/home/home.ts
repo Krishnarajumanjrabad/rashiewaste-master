@@ -11,6 +11,7 @@ import {AppointmentPage} from "../appointment/appointment";
 import {EventBookingPage} from "../event-booking/event-booking";
 import {SendPhotosPage} from "../send-photos/send-photos";
 import {ProductCatalogPage} from "../product-catalog/product-catalog";
+import {AboutPage} from "../about/about";
 
 
 @Component({
@@ -64,6 +65,11 @@ export class HomePage {
   contactUs() {
     console.log("OPening the Contact Us page");
     this.navCtrl.push(ContactPage);
+  }
+
+  aboutUS() {
+    console.log("OPening the About Us page");
+    this.navCtrl.push(AboutPage);
   }
 
   openFeedback() {

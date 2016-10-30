@@ -17,6 +17,8 @@
 
   <!-- Enable requests to content: URLs -->
   <access origin="content:///*"/>
+  <access origin="http://localhost:3000"/>
+  <access origin="http://localhost:8100"/>
   <access origin="http://192.168.1.105:5984"/>
   <access origin="http://192.168.1.105:8100"/>
   <access origin="http://admin:admin@192.168.1.105:5984/rashi_db/"/>

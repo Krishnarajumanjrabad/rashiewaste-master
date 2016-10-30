@@ -18,4 +18,16 @@
     text-align: right;
     color: white;
   }
+
+  .footer-bar-custom {
+    background: #455D87;
+    color: #F6F7F0;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 5
+  }
 }

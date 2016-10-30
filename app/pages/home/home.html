@@ -86,77 +86,10 @@
   <ion-grid>
     <ion-row>
       <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openFaceBook()">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </button>
-        <ion-label align="center">Face Book</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openGallery()">
-          <ion-icon name="camera"></ion-icon>
-        </button>
-        <ion-label align="center">Gallary</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openChat()">
-          <ion-icon name="chatbubbles"></ion-icon>
-        </button>
-        <ion-label align="center">Chat Us</ion-label>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openEnquiryForm()">
-          <ion-icon name="clipboard"></ion-icon>
-        </button>
-        <ion-label align="center">Enquiry</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="contactUs()">
-          <ion-icon name="contacts"></ion-icon>
-        </button>
-        <ion-label align="center">Contact Us</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openFeedback()">
-          <ion-icon name="create"></ion-icon>
-        </button>
-        <ion-label align="center">Tell Us</ion-label>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="sendPhotosInformation()">
-          <ion-icon name="images"></ion-icon>
-        </button>
-        <ion-label align="center">Send Photos</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="loadMap()">
-          <!--//<button large danger full block (click)="loadMap()">-->
-          <ion-icon name="navigate"></ion-icon>
-        </button>
-        <ion-label align="center">Locate Us</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="loadAppointment()">
+        <button ion-button color="danger" large block full (click)="aboutUS()">
           <ion-icon name="book"></ion-icon>
         </button>
-        <ion-label align="center">Appointments</ion-label>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openTwitter()">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </button>
-        <ion-label align="center">Twitter</ion-label>
-      </ion-col>
-      <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openEventsPage()">
-          <ion-icon name="list-box"></ion-icon>
-        </button>
-        <ion-label align="center">Events</ion-label>
+        <ion-label align="center">About Us</ion-label>
       </ion-col>
       <ion-col width-33>
         <button ion-button color="danger" large block full (click)="openServicePage()">
@@ -164,13 +97,93 @@
         </button>
         <ion-label align="center">Services</ion-label>
       </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="sendPhotosInformation()">
+          <ion-icon name="images"></ion-icon>
+        </button>
+        <ion-label align="center">Send EWaste Photos</ion-label>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="loadMap()">
+          <!--//<button large danger full block (click)="loadMap()">-->
+          <ion-icon name="ribbon"></ion-icon>
+        </button>
+        <ion-label align="center">Hardware Training</ion-label>
+      </ion-col>
+
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="loadMap()">
+          <!--//<button large danger full block (click)="loadMap()">-->
+          <ion-icon name="navigate"></ion-icon>
+        </button>
+        <ion-label align="center">Locate Us</ion-label>
+      </ion-col>
+
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="loadMap()">
+          <!--//<button large danger full block (click)="loadMap()">-->
+          <ion-icon name="archive"></ion-icon>
+        </button>
+        <ion-label align="center">Bulk Buy</ion-label>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openFaceBook()">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </button>
+        <ion-label align="center">Face Book</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openTwitter()">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </button>
+        <ion-label align="center">Twitter</ion-label>
+      </ion-col>
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openGallery()">
+          <ion-icon name="camera"></ion-icon>
+        </button>
+        <ion-label align="center">Gallary</ion-label>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>
+
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openEventsPage()">
+          <ion-icon name="list-box"></ion-icon>
+        </button>
+        <ion-label align="center">Our Events</ion-label>
+      </ion-col>
+
+
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="openChat()">
+          <ion-icon name="chatbubbles"></ion-icon>
+        </button>
+        <ion-label align="center">Chat with us</ion-label>
+      </ion-col>
+
+      <ion-col width-33>
+        <button ion-button color="danger" large block full (click)="loadAppointment()">
+          <ion-icon name="bookmarks"></ion-icon>
+        </button>
+        <ion-label align="center">Give us Appointments</ion-label>
+      </ion-col>
+
     </ion-row>
   </ion-grid>
 </ion-content>
 
-<ion-footer>
+<ion-footer style="height: 50px;bottom: 84px;">
   <ion-toolbar secondary>
-    <ion-title text-left padding>
+    <ion-title text-left>
       <small><img src="build/images/copyright.jpg" style="height:13px;width:13px;"/>2013 Rashi E Waste. All Rights
         Reserved.
       </small>

@@ -8,7 +8,13 @@
 
   <ion-navbar danger>
     <ion-title><span style="color: white"><h4>Online Shopping</h4></span></ion-title>
-    <button class="bar-button-solid-danger" small (click)="addProductCatalog" end>addProducts</button>
+
+    <div>
+      <span style=" position: absolute;top: 30px; right: 5px; text-align: right; color: white;">
+        <button ion-button small danger end (click)="addProductCatalog()">
+          <span style="color: white">addProducts</span> </button></span>
+    </div>
+
   </ion-navbar>
 
 </ion-header>
@@ -17,58 +23,41 @@
 <ion-content padding>
   <form [formGroup]="productCatalogForm" danger>
     <ion-card>
-      <ion-grid>
-        <ion-row no-padding>
-          <ion-col width-33>
-            <!-- <ion-card>-->
-            <ion-item>
-              <ion-card-title>
-                <h4>Catalog Info</h4>
-              </ion-card-title>
-            </ion-item>
-            <ion-item>
-              <ion-label stacked><span class="input-label">CataLog Name</span></ion-label>
-              <ion-input type="text" value="" formControlName="catalogName" placeholder="catalog Name...."
-                         value=""></ion-input>
-            </ion-item>
-            <!-- </ion-card>-->
-          </ion-col>
-          <ion-col width-33>
-            <!-- <ion-card>-->
-            <ion-item>
-              <ion-card-title>
-                <h4>Category Info</h4>
-              </ion-card-title>
-            </ion-item>
-            <ion-item>
-              <ion-label stacked><span class="input-label">Category Name</span></ion-label>
-              <ion-input type="text" value="" formControlName="categoryName" placeholder="Category Name...."
-                         value=""></ion-input>
-            </ion-item>
-            <!--</ion-card>-->
-          </ion-col>
-          <ion-col width-33>
-            <!-- <ion-card>-->
-            <ion-item>
-              <ion-card-title>
-                <h4>SubCategory Info</h4>
-              </ion-card-title>
-            </ion-item>
-            <ion-item>
-              <ion-label stacked><span class="input-label">SubCategory Name</span></ion-label>
-              <ion-input type="text" value="" formControlName="subCategoryName" placeholder="Sub Category Name...."
-                         value=""></ion-input>
-            </ion-item>
-            <!--</ion-card>-->
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-      <ion-item align="center">
+
+      <ion-item>
         <ion-card-title>
-          <h4> Product Information </h4>
+          <h2> Catalog Information </h2>
         </ion-card-title>
       </ion-item>
+
       <ion-grid>
+        <ion-row>
+          <ion-col width-33>
+            <ion-label stacked><span class="input-label">CataLog Name</span></ion-label>
+            <ion-input type="text" value="" formControlName="catalogName" placeholder="catalog Name...." value=""></ion-input>
+          </ion-col>
+
+          <ion-col width-33>
+            <ion-label stacked><span class="input-label">Category Name</span></ion-label>
+              <ion-input type="text" value="" formControlName="categoryName" placeholder="Category Name...." value=""></ion-input>
+          </ion-col>
+
+          <ion-col width-33>
+            <ion-label stacked><span class="input-label">SubCategory Name</span></ion-label>
+              <ion-input type="text" value="" formControlName="subCategoryName" placeholder="Sub Category Name...." value=""></ion-input>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+
+      <ion-item>
+        <ion-card-title>
+          <h2> Product Information </h2>
+        </ion-card-title>
+      </ion-item>
+
+      <ion-grid>
+
         <ion-row>
           <ion-col width-50>
             <ion-label stacked><span class="input-label">Product Name</span></ion-label>
@@ -81,6 +70,7 @@
                        value=""></ion-input>
           </ion-col>
         </ion-row>
+
         <ion-row>
           <ion-col>
             <ion-label stacked><span class="input-label">Product Long Description</span></ion-label>
@@ -90,6 +80,7 @@
           </ion-col>
 
         </ion-row>
+
         <ion-row>
           <ion-col width-50>
             <ion-label stacked><span class="input-label">Product Brand</span></ion-label>
@@ -102,12 +93,24 @@
                        value=""></ion-input>
           </ion-col>
         </ion-row>
+
+        <ion-row>
+          <ion-col width>
+            <ion-label stacked><span class="input-label">Product Price</span></ion-label>
+            <ion-input type="text" value="" formControlName="productPrice" placeholder="Product Price...."
+                       value=""></ion-input>
+          </ion-col>
+
+        </ion-row>
+
       </ion-grid>
-      <ion-item align="center">
+
+      <ion-item>
         <ion-card-title>
           <h4> Inventory Information </h4>
         </ion-card-title>
       </ion-item>
+
       <ion-grid>
         <ion-row>
           <ion-col width-50>
@@ -122,14 +125,15 @@
           </ion-col>
         </ion-row>
         <ion-row>
-          <ion-col>
+          <ion-col width-50>
             <ion-label stacked><span class="input-label">Inventory Quantity</span></ion-label>
-            <ion-textarea type="text" value="" formControlName="inventoryQty"
-                          placeholder="Inventory Quantity...."
-                          value=""></ion-textarea>
+            <ion-input type="text" value="" formControlName="inventoryQty"
+                       placeholder="Inventory Quantity...."
+                       value=""></ion-input>
           </ion-col>
 
         </ion-row>
+
         <ion-row>
           <ion-col width-50>
             <ion-label stacked><span class="input-label">inventory created date</span></ion-label>
@@ -140,7 +144,33 @@
           </ion-col>
 
         </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <ion-label stacked><span class="input-label">Product Image</span></ion-label>
+            <!-- <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="eventForm.timeEnds"
+                           [ngModelOptions]="{standalone: true}"></ion-datetime>-->
+            <input type="file" multiple #input/>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col width-50>
+            <button type="button" class="button button-danger bar-button-danger" [disabled]="!productCatalogForm.valid"
+                    block
+                    (click)="saveSendItems(productCatalogForm.value)"><span
+              style="color: black">Submit</span></button>
+          </ion-col>
+          <ion-col width-50>
+            <button type="reset" class="button button-danger bar-button-danger" block><span
+              style="color: black">Clear</span>
+            </button>
+          </ion-col>
+        </ion-row>
+
       </ion-grid>
+
+
     </ion-card>
   </form>
 </ion-content>

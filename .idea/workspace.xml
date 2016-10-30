@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a1b3b8e-424f-4c41-aa88-9110875ee806" name="Default" comment="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user." />
+    <list default="true" id="2a1b3b8e-424f-4c41-aa88-9110875ee806" name="Default" comment="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.credentials/client_secret.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server-crt.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server-key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/ca.cnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.ts" afterPath="$PROJECT_DIR$/app/app.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.html" afterPath="$PROJECT_DIR$/app/pages/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.scss" afterPath="$PROJECT_DIR$/app/pages/home/home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.ts" afterPath="$PROJECT_DIR$/app/pages/home/home.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html" afterPath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts" afterPath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/tabs/tabs.html" afterPath="$PROJECT_DIR$/app/pages/tabs/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/tabs/tabs.ts" afterPath="$PROJECT_DIR$/app/pages/tabs/tabs.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" afterPath="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/theme/app.core.scss" afterPath="$PROJECT_DIR$/app/theme/app.core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic.config.json" afterPath="$PROJECT_DIR$/ionic.config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+    </list>
     <list id="5c40bee2-dc66-47c4-b2b2-c1a62dcd5559" name="New changelist" comment="" />
     <ignored path="rashiewaste.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,20 +46,100 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="D:\rashiewaste-master\exportToHTML" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="rashiewaste" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product-catalog.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product-catalog.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="1760">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="21" />
               <folding>
-                <marker date="1477298176852" expanded="true" signature="544:2901" ph="{...}" />
-                <marker date="1477298176852" expanded="true" signature="1126:1841" ph="{...}" />
+                <element signature="e#0#63#0" expanded="true" />
+                <element signature="n#!!block;n#saveSendItems#0;n#ProductCatalogPage#0" expanded="true" />
+                <element signature="e#3566#3691#0" expanded="true" />
+                <element signature="n#!!block;n#loadExistingProducts#0;n#ProductCatalogPage#0" expanded="true" />
+                <element signature="e#3895#5037#0" expanded="true" />
+                <element signature="e#3982#4972#0" expanded="true" />
+                <element signature="e#4125#4354#0" expanded="true" />
+                <element signature="e#4479#4945#0" expanded="true" />
+                <element signature="e#4741#4860#0" expanded="true" />
+                <element signature="e#4989#5024#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-catalog-service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3232">
+              <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#!!block;n#constructor#0;n#ProductCatalogService#0" expanded="true" />
+                <element signature="e#3153#3391#0" expanded="true" />
+                <element signature="e#3572#3802#0" expanded="true" />
+                <element signature="e#4494#4732#0" expanded="true" />
+                <element signature="n#!!block;n#saveProdctInformation#0;n#ProductCatalogService#0" expanded="true" />
+                <element signature="e#5801#8457#0" expanded="true" />
+                <element signature="e#5895#6061#0" expanded="true" />
+                <element signature="e#6266#8446#0" expanded="true" />
+                <element signature="e#6410#6599#0" expanded="true" />
+                <element signature="e#6835#8433#0" expanded="true" />
+                <element signature="e#6957#7176#0" expanded="true" />
+                <element signature="e#7730#8418#0" expanded="true" />
+                <element signature="e#7844#8048#0" expanded="true" />
+                <element signature="e#8984#9546#0" expanded="true" />
+                <element signature="e#9080#9248#0" expanded="true" />
+                <element signature="n#!!block;n#getProductImagePhotos#0;n#ProductCatalogService#0" expanded="true" />
+                <element signature="e#9644#9793#0" expanded="true" />
+                <element signature="e#9707#9784#0" expanded="true" />
+                <element signature="n#!!block;n#getImageAttachments#0;n#ProductCatalogService#0" expanded="true" />
+                <element signature="e#9935#10387#0" expanded="true" />
+                <element signature="e#10032#10378#0" expanded="true" />
+                <element signature="e#10201#10296#0" expanded="true" />
+                <element signature="e#10317#10358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email-service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/providers/email-service/email-service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+                <element signature="n#!!block;n#constructor#0;n#EmailService#0" expanded="true" />
+                <element signature="e#1448#1497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ionic.config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,10 +147,57 @@
       <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="59" column="147" selection-start-line="59" selection-start-column="147" selection-end-line="59" selection-end-column="147" />
+            <state relative-caret-position="1152">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+                <element signature="n#!!block;n#checkPreviousAuthorization#0;n#MyApp#0" expanded="true" />
+                <element signature="n#!!block;n#loadDataFromDB#0;n#MyApp#0" expanded="true" />
+                <marker date="1477714421492" expanded="true" signature="2806:5618" ph="{...}" />
+                <marker date="1477714421492" expanded="true" signature="2815:3086" ph="/*...*/" />
+                <marker date="1477714421492" expanded="true" signature="3129:3286" ph="/*...*/" />
+                <marker date="1477714421492" expanded="true" signature="3291:3538" ph="/*...*/" />
+                <marker date="1477714421492" expanded="true" signature="3543:3639" ph="//..." />
+                <marker date="1477714421492" expanded="true" signature="3642:3770" ph="/*...*/" />
+                <marker date="1477714421492" expanded="true" signature="3830:4312" ph="{&quot;service&quot;: 'gmail'...}" />
+                <marker date="1477714421492" expanded="true" signature="3868:4306" ph="{...}" />
+                <marker date="1477714421492" expanded="true" signature="3918:4297" ph="{&quot;user&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
+                <marker date="1477714421492" expanded="true" signature="4340:4590" ph="{&quot;from&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
+                <marker date="1477714421492" expanded="true" signature="4637:4873" ph="{...}" />
+                <marker date="1477714421492" expanded="true" signature="4695:4865" ph="{...}" />
+                <marker date="1477714421492" expanded="true" signature="4714:4755" ph="{...}" />
+                <marker date="1477714421492" expanded="true" signature="4761:4857" ph="{...}" />
+                <marker date="1477714421492" expanded="true" signature="4881:5611" ph="/*...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="18" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#button#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webchat.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#900#1135#0" expanded="true" />
+                <element signature="e#1148#1197#0" expanded="true" />
+                <element signature="e#1307#1416#0" expanded="true" />
+                <element signature="e#1335#1408#0" expanded="true" />
+                <element signature="n#!!block;n#send#0;n#WebchatPage#0" expanded="true" />
+                <marker date="1477243878668" expanded="true" signature="1476:1560" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,32 +206,26 @@
       <file leaf-file-name="send-photo-services.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1775">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="42" column="53" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="53" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-catalog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2629">
-              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-              <folding>
-                <marker date="1477297929372" expanded="true" signature="5502:5581" ph="..." />
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#!!block;n#constructor#0;n#SendPhotoServices#0" expanded="true" />
+                <element signature="n#!!block;n#upload#0;n#SendPhotoServices#0" expanded="true" />
+                <element signature="e#1277#2011#0" expanded="true" />
+                <element signature="e#1332#1896#0" expanded="true" />
+                <element signature="e#1915#2001#0" expanded="true" />
+                <element signature="n#!!block;n#extracted#0;n#SendPhotoServices#0" expanded="true" />
+                <element signature="e#2480#2736#0" expanded="true" />
+                <element signature="e#2755#2810#0" expanded="true" />
+                <element signature="n#!!block;n#getSendPhotos#0;n#SendPhotoServices#0" expanded="true" />
+                <element signature="e#2877#3010#0" expanded="true" />
+                <element signature="e#2929#3002#0" expanded="true" />
+                <element signature="n#!!block;n#getImageAttachments#0;n#SendPhotoServices#0" expanded="true" />
+                <element signature="e#3138#3552#0" expanded="true" />
+                <element signature="e#3224#3544#0" expanded="true" />
+                <element signature="e#3386#3477#0" expanded="true" />
+                <element signature="e#3494#3533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,22 +258,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/pages/login/login.ts" />
-        <option value="$PROJECT_DIR$/app/pages/tabs/tabs.html" />
-        <option value="$PROJECT_DIR$/app/pages/contact/contact.html" />
-        <option value="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.scss" />
-        <option value="$PROJECT_DIR$/app/pages/facebook/facebook.ts" />
-        <option value="$PROJECT_DIR$/app/pages/feedback/feedback.scss" />
-        <option value="$PROJECT_DIR$/app/pages/feedback/feedback.html" />
-        <option value="$PROJECT_DIR$/routes/routes.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/models/chatmodel.js" />
         <option value="$PROJECT_DIR$/binding.gyp" />
         <option value="$PROJECT_DIR$/build/binding.sln" />
         <option value="$PROJECT_DIR$/node_modules/ws/README.md" />
         <option value="$PROJECT_DIR$/app/pages/appointment/appointment.scss" />
-        <option value="$PROJECT_DIR$/www/build/js/app.bundle.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$USER_HOME$/.WebStorm2016.2/webstorm64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/app/pages/feedback/feedback.ts" />
         <option value="$PROJECT_DIR$/app/providers/feedback-service/feedback-service.ts" />
@@ -145,8 +282,6 @@
         <option value="$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts" />
         <option value="$PROJECT_DIR$/app/pages/event-booking/event-booking.html" />
         <option value="$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/typings/index.d.ts" />
         <option value="$PROJECT_DIR$/typings/globals/require/index.d.ts" />
         <option value="$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts" />
         <option value="$PROJECT_DIR$/app/pages/send-photos/send-photos.ts" />
@@ -154,15 +289,32 @@
         <option value="$PROJECT_DIR$/app/pages/webchat/webchat.ts" />
         <option value="$PROJECT_DIR$/app/pages/webchat/webchat.scss" />
         <option value="$PROJECT_DIR$/app/pages/webchat/webchat.html" />
-        <option value="$PROJECT_DIR$/app/theme/app.core.scss" />
-        <option value="$PROJECT_DIR$/app/pages/home/home.html" />
+        <option value="$USER_HOME$/Downloads/client_secret_56089748144-3s1buno3980o4bevvjrhc4rbe4u2l476.apps.googleusercontent.com.json" />
+        <option value="$PROJECT_DIR$/typings/index.d.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/www/build/js/app.bundle.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/ionic-gulp-browserify-typescript/node_modules/browser-pack/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/browser-pack/index.js" />
         <option value="$PROJECT_DIR$/app/pages/home/home.ts" />
-        <option value="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" />
-        <option value="$PROJECT_DIR$/app/app.ts" />
+        <option value="$PROJECT_DIR$/app/pages/tabs/tabs.ts" />
+        <option value="$PROJECT_DIR$/app/theme/app.core.scss" />
+        <option value="$PROJECT_DIR$/app/pages/home/home.scss" />
+        <option value="$PROJECT_DIR$/app/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/app/pages/tabs/tabs.html" />
         <option value="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html" />
         <option value="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts" />
+        <option value="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/app/app.ts" />
+        <option value="$PROJECT_DIR$/ionic.config.json" />
+        <option value="$PROJECT_DIR$/app/providers/email-service/email-service.ts" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -179,10 +331,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1618" />
-    <option name="height" value="868" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1924" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,10 +344,10 @@
             <id />
           </State>
           <State>
-            <id>JavaScript</id>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
           </State>
           <State>
-            <id>JavaScript validity issuesJavaScript</id>
+            <id>JavaScript</id>
           </State>
           <State>
             <id>TypeScript</id>
@@ -203,7 +355,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>BadExpressionStatementJS</id>
+            <id>TypeScriptCheckImport</id>
           </State>
         </selected-state>
       </profile-state>
@@ -234,8 +386,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,34 +436,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-booking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
@@ -322,19 +452,22 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="D:\rashiewaste\node_modules\gulp" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/AppData/Roaming/npm/node_modules/grunt-cli" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\rashiewaste\app\providers\connectivity-service" />
-      <recent name="D:\rashiewaste\www" />
-      <recent name="D:\rashiewaste\app\images" />
-      <recent name="D:\rashiewaste\app\pages\navigate-to" />
-      <recent name="D:\rashiewaste\www\build\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rashiewaste-master\certificate" />
       <recent name="D:\rashiewaste\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rashiewaste-master\app\pages\product-catalog" />
+      <recent name="D:\rashiewaste-master\certificate\cert" />
+      <recent name="D:\rashiewaste-master\cert" />
+      <recent name="D:\rashiewaste-master\etc" />
+      <recent name="D:\rashiewaste-master" />
     </key>
   </component>
   <component name="RunManager">
@@ -457,6 +590,11 @@
       <workItem from="1476766639126" duration="3303000" />
       <workItem from="1476773580845" duration="952000" />
       <workItem from="1476782828588" duration="130272000" />
+      <workItem from="1477379931045" duration="8427000" />
+      <workItem from="1477451993491" duration="73729000" />
+      <workItem from="1477646879294" duration="24635000" />
+      <workItem from="1477712234690" duration="6979000" />
+      <workItem from="1477794005986" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user.">
       <created>1475639604101</created>
@@ -518,30 +656,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="539324000" />
+    <option name="totallyTimeSpent" value="653306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="868" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28015316" sideWeight="0.49602723" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26307693" sideWeight="0.50256413" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781956" sideWeight="0.4974359" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.4972261" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23847803" sideWeight="0.49602723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.50277394" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272506" sideWeight="0.4974359" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2804878" sideWeight="0.50397277" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662538" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256936" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -643,246 +783,21 @@
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/webchat/webchat.ts</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts</url>
+          <line>90</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/webchat/webchat.ts</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/webchat/webchat.ts</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/webchat/webchat.ts</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/webchat/webchat.ts</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="61" />
+          <url>file://$PROJECT_DIR$/app/app.ts</url>
+          <line>38</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="73" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/pages/appointment/appointment.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.WebStorm2016.2/webstorm64.exe.vmoptions" />
-    <entry file="file://$PROJECT_DIR$/www/build/js/app.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1046" column="34" selection-start-line="1046" selection-start-column="34" selection-end-line="1046" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/feedback-service/feedback-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/enquiry-service/enquiry-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="46" column="7" selection-start-line="29" selection-start-column="4" selection-end-line="46" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/appointment/appointment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="21" column="118" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/appointment/appointment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="93" column="70" selection-start-line="93" selection-start-column="70" selection-end-line="93" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="46" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/config.gypi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hooks/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2448">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/events-publisher/events-publisher.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pouchdb-lru-cache/pouch-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/socket.io-client/socket.io.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="265" column="4" selection-start-line="265" selection-start-column="4" selection-end-line="265" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/event-booking/event-booking.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/require/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="386" column="32" selection-start-line="386" selection-start-column="32" selection-end-line="386" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/globals/node/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503">
-          <caret line="397" column="14" selection-start-line="397" selection-start-column="14" selection-end-line="397" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.507/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1760">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/Observable.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/gallary/gallary.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -895,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="70" column="44" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1782">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,19 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-          <folding>
-            <marker date="1477243878668" expanded="true" signature="405:1645" ph="{...}" />
-            <marker date="1477243878668" expanded="true" signature="577:1422" ph="{...}" />
-            <marker date="1477243878668" expanded="true" signature="1476:1560" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,15 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2048">
-          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,11 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="26" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#button#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="false" />
-            <marker date="1477251346953" expanded="true" signature="923:961" ph="..." />
-            <marker date="1477251346953" expanded="true" signature="2223:2527" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,25 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <marker date="1477125105568" expanded="true" signature="2002:2112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/theme/app.core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,9 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,53 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <caret line="161" column="83" selection-start-line="161" selection-start-column="68" selection-end-line="161" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="10" />
-          <folding>
-            <marker date="1477288355389" expanded="true" signature="794:2803" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="42" column="53" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="59" column="147" selection-start-line="59" selection-start-column="147" selection-end-line="59" selection-end-column="147" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,78 +873,402 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="44" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/client_secret_56089748144-3s1buno3980o4bevvjrhc4rbe4u2l476.apps.googleusercontent.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="42" column="53" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.credentials/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/pki_krishna/myCA/openssl.my.cnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificate/cert/server-crt.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificate/cert/server-key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificate/cert/server.crt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/requirejs/bin/r.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303991">
+          <caret line="24700" column="8" selection-start-line="24700" selection-start-column="8" selection-end-line="24700" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/build/js/app.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="70396" column="50" selection-start-line="70396" selection-start-column="50" selection-end-line="70396" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts">
+    <entry file="file://$PROJECT_DIR$/etc/ca.cnf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1648">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ionic/node_modules/ionic-app-lib/node_modules/cordova-lib/node_modules/cordova-js/node_modules/browserify/node_modules/browser-pack/test/source-maps-existing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/browser-pack/test/source-maps-existing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ionic-gulp-browserify-typescript/node_modules/browser-pack/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/browser-pack/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="62" column="16" selection-start-line="51" selection-start-column="5" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/contact.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/tabs/tabs.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/theme/app.core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/tabs/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="32" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <marker date="1477289295796" expanded="true" signature="461:4701" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="461:4704" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="569:630" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="994:1178" ph="{&quot;singular&quot;: 'productImage'...}" />
-            <marker date="1477289295796" expanded="true" signature="1912:3309" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="1958:3300" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2012:3157" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2057:3150" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2101:2216" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2169:2209" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2262:2380" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2332:2373" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2432:2559" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2508:2552" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2602:2717" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2670:2710" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2770:2900" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="2848:2893" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3015:3082" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3088:3143" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3174:3290" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3373:4695" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3398:4688" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3440:3800" ph="{&quot;id&quot;: 1001...}" />
-            <marker date="1477289295796" expanded="true" signature="3819:3920" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3862:3911" ph="{&quot;id&quot;: 101...}" />
-            <marker date="1477289295796" expanded="true" signature="3939:4040" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="3987:4031" ph="{&quot;id&quot;: 501...}" />
-            <marker date="1477289295796" expanded="true" signature="4059:4163" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="4101:4154" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1477289295796" expanded="true" signature="4182:4502" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="4226:4493" ph="{&quot;id&quot;: 5001...}" />
-            <marker date="1477289295796" expanded="true" signature="4521:4609" ph="{...}" />
-            <marker date="1477289295796" expanded="true" signature="4628:4679" ph="{...}" />
+            <element signature="n#!!block;n#loadImage#0;n#GallaryService#0" expanded="false" />
+            <element signature="e#1001#1321#0" expanded="false" />
+            <element signature="e#1099#1262#0" expanded="false" />
+            <element signature="e#1279#1314#0" expanded="false" />
+            <element signature="n#!!block;n#uploadImage#0;n#GallaryService#0" expanded="false" />
+            <element signature="e#1557#2891#0" expanded="false" />
+            <element signature="e#1737#2879#0" expanded="false" />
+            <element signature="e#1972#2179#0" expanded="false" />
+            <element signature="e#2196#2277#0" expanded="false" />
+            <element signature="e#2294#2372#0" expanded="false" />
+            <element signature="e#2484#2687#0" expanded="false" />
+            <element signature="e#2710#2756#0" expanded="false" />
+            <element signature="e#2773#2851#0" expanded="false" />
+            <element signature="n#!!block;n#blobEquals#0;n#GallaryService#0" expanded="false" />
+            <element signature="e#2984#3364#0" expanded="false" />
+            <element signature="e#3060#3318#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts">
+    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1775">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="1280">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2629">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state relative-caret-position="2368">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
           <folding>
-            <marker date="1477297929372" expanded="true" signature="5502:5581" ph="..." />
+            <element signature="n#style#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="1760">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="21" />
           <folding>
-            <marker date="1477298176852" expanded="true" signature="544:2901" ph="{...}" />
-            <marker date="1477298176852" expanded="true" signature="1126:1841" ph="{...}" />
+            <element signature="e#0#63#0" expanded="true" />
+            <element signature="n#!!block;n#saveSendItems#0;n#ProductCatalogPage#0" expanded="true" />
+            <element signature="e#3566#3691#0" expanded="true" />
+            <element signature="n#!!block;n#loadExistingProducts#0;n#ProductCatalogPage#0" expanded="true" />
+            <element signature="e#3895#5037#0" expanded="true" />
+            <element signature="e#3982#4972#0" expanded="true" />
+            <element signature="e#4125#4354#0" expanded="true" />
+            <element signature="e#4479#4945#0" expanded="true" />
+            <element signature="e#4741#4860#0" expanded="true" />
+            <element signature="e#4989#5024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#SendPhotoServices#0" expanded="true" />
+            <element signature="n#!!block;n#upload#0;n#SendPhotoServices#0" expanded="true" />
+            <element signature="e#1277#2011#0" expanded="true" />
+            <element signature="e#1332#1896#0" expanded="true" />
+            <element signature="e#1915#2001#0" expanded="true" />
+            <element signature="n#!!block;n#extracted#0;n#SendPhotoServices#0" expanded="true" />
+            <element signature="e#2480#2736#0" expanded="true" />
+            <element signature="e#2755#2810#0" expanded="true" />
+            <element signature="n#!!block;n#getSendPhotos#0;n#SendPhotoServices#0" expanded="true" />
+            <element signature="e#2877#3010#0" expanded="true" />
+            <element signature="e#2929#3002#0" expanded="true" />
+            <element signature="n#!!block;n#getImageAttachments#0;n#SendPhotoServices#0" expanded="true" />
+            <element signature="e#3138#3552#0" expanded="true" />
+            <element signature="e#3224#3544#0" expanded="true" />
+            <element signature="e#3386#3477#0" expanded="true" />
+            <element signature="e#3494#3533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3232">
+          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#ProductCatalogService#0" expanded="true" />
+            <element signature="e#3153#3391#0" expanded="true" />
+            <element signature="e#3572#3802#0" expanded="true" />
+            <element signature="e#4494#4732#0" expanded="true" />
+            <element signature="n#!!block;n#saveProdctInformation#0;n#ProductCatalogService#0" expanded="true" />
+            <element signature="e#5801#8457#0" expanded="true" />
+            <element signature="e#5895#6061#0" expanded="true" />
+            <element signature="e#6266#8446#0" expanded="true" />
+            <element signature="e#6410#6599#0" expanded="true" />
+            <element signature="e#6835#8433#0" expanded="true" />
+            <element signature="e#6957#7176#0" expanded="true" />
+            <element signature="e#7730#8418#0" expanded="true" />
+            <element signature="e#7844#8048#0" expanded="true" />
+            <element signature="e#8984#9546#0" expanded="true" />
+            <element signature="e#9080#9248#0" expanded="true" />
+            <element signature="n#!!block;n#getProductImagePhotos#0;n#ProductCatalogService#0" expanded="true" />
+            <element signature="e#9644#9793#0" expanded="true" />
+            <element signature="e#9707#9784#0" expanded="true" />
+            <element signature="n#!!block;n#getImageAttachments#0;n#ProductCatalogService#0" expanded="true" />
+            <element signature="e#9935#10387#0" expanded="true" />
+            <element signature="e#10032#10378#0" expanded="true" />
+            <element signature="e#10201#10296#0" expanded="true" />
+            <element signature="e#10317#10358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!block;n#checkPreviousAuthorization#0;n#MyApp#0" expanded="true" />
+            <element signature="n#!!block;n#loadDataFromDB#0;n#MyApp#0" expanded="true" />
+            <marker date="1477714421492" expanded="true" signature="2806:5618" ph="{...}" />
+            <marker date="1477714421492" expanded="true" signature="2815:3086" ph="/*...*/" />
+            <marker date="1477714421492" expanded="true" signature="3129:3286" ph="/*...*/" />
+            <marker date="1477714421492" expanded="true" signature="3291:3538" ph="/*...*/" />
+            <marker date="1477714421492" expanded="true" signature="3543:3639" ph="//..." />
+            <marker date="1477714421492" expanded="true" signature="3642:3770" ph="/*...*/" />
+            <marker date="1477714421492" expanded="true" signature="3830:4312" ph="{&quot;service&quot;: 'gmail'...}" />
+            <marker date="1477714421492" expanded="true" signature="3868:4306" ph="{...}" />
+            <marker date="1477714421492" expanded="true" signature="3918:4297" ph="{&quot;user&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
+            <marker date="1477714421492" expanded="true" signature="4340:4590" ph="{&quot;from&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
+            <marker date="1477714421492" expanded="true" signature="4637:4873" ph="{...}" />
+            <marker date="1477714421492" expanded="true" signature="4695:4865" ph="{...}" />
+            <marker date="1477714421492" expanded="true" signature="4714:4755" ph="{...}" />
+            <marker date="1477714421492" expanded="true" signature="4761:4857" ph="{...}" />
+            <marker date="1477714421492" expanded="true" signature="4881:5611" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#900#1135#0" expanded="true" />
+            <element signature="e#1148#1197#0" expanded="true" />
+            <element signature="e#1307#1416#0" expanded="true" />
+            <element signature="e#1335#1408#0" expanded="true" />
+            <element signature="n#!!block;n#send#0;n#WebchatPage#0" expanded="true" />
+            <marker date="1477243878668" expanded="true" signature="1476:1560" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/email-service/email-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#EmailService#0" expanded="true" />
+            <element signature="e#1448#1497#0" expanded="true" />
           </folding>
         </state>
       </provider>
