@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1b3b8e-424f-4c41-aa88-9110875ee806" name="Default" comment="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.credentials/client_secret.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server-crt.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server-key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificate/cert/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/ca.cnf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.ts" afterPath="$PROJECT_DIR$/app/app.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.html" afterPath="$PROJECT_DIR$/app/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.scss" afterPath="$PROJECT_DIR$/app/pages/home/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.ts" afterPath="$PROJECT_DIR$/app/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html" afterPath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts" afterPath="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/tabs/tabs.html" afterPath="$PROJECT_DIR$/app/pages/tabs/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/tabs/tabs.ts" afterPath="$PROJECT_DIR$/app/pages/tabs/tabs.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" afterPath="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/theme/app.core.scss" afterPath="$PROJECT_DIR$/app/theme/app.core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic.config.json" afterPath="$PROJECT_DIR$/ionic.config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
     </list>
     <list id="5c40bee2-dc66-47c4-b2b2-c1a62dcd5559" name="New changelist" comment="" />
     <ignored path="rashiewaste.iws" />
@@ -333,8 +308,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1924" />
-    <option name="height" value="1042" />
+    <option name="width" value="2326" />
+    <option name="height" value="1258" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -394,48 +369,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rashiewaste-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -458,16 +391,16 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rashiewaste-master\certificate" />
-      <recent name="D:\rashiewaste\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\rashiewaste-master\app\pages\product-catalog" />
       <recent name="D:\rashiewaste-master\certificate\cert" />
       <recent name="D:\rashiewaste-master\cert" />
       <recent name="D:\rashiewaste-master\etc" />
       <recent name="D:\rashiewaste-master" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rashiewaste-master\certificate" />
+      <recent name="D:\rashiewaste\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -594,7 +527,7 @@
       <workItem from="1477451993491" duration="73729000" />
       <workItem from="1477646879294" duration="24635000" />
       <workItem from="1477712234690" duration="6979000" />
-      <workItem from="1477794005986" duration="212000" />
+      <workItem from="1477794005986" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user.">
       <created>1475639604101</created>
@@ -656,15 +589,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="653306000" />
+    <option name="totallyTimeSpent" value="654640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
+    <frame x="-11" y="-11" width="2326" height="1258" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.4972261" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23847803" sideWeight="0.49602723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2601156" sideWeight="0.4972261" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19620812" sideWeight="0.49602723" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.50277394" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272506" sideWeight="0.4974359" order="11" side_tool="false" content_ui="tabs" />
