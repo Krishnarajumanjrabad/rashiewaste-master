@@ -12,9 +12,10 @@ import {EventsPublisher} from "./providers/events-publisher/events-publisher";
 import {SendPhotoServices} from "./providers/send-photo-services/send-photo-services";
 import {ProductCatalogService} from "./providers/product-catalog-service/product-catalog-service";
 import {HTTP_PROVIDERS} from "@angular/http";
+import {EmailService} from "./providers/email-service/email-service";
 /*import * as fs from "fs";
 import * as path from "path";*/
-import {EmailService} from "./providers/email-service/email-service";
+
 
 
 
@@ -34,9 +35,11 @@ export class MyApp {
 
     this.rootPage = TabsPage;
     this.loadDataFromDB();
-   
+  
     // this.sendingGmailTest();
-    emailService.sendEmail("krishna_mr007@hotmail.com", "Registration Message about your login information","Dear User, Thanks for the registering to RashiEwaste App. With Regards, RashiEwaste Admin");
+    emailService.sendEmail( "krishna_mr007@hotmail.com", "Registration Message about your login information", "<body>Dear Sir/Madam," +
+      " <p> Thanks for the registering to RashiEwaste App. </p>" +
+      "<p> With Regards, </p> RashiEwaste Admin </body>" );
     this.checkPreviousAuthorization();
     console.log("printing the db connection" + this.db);
     platform.ready().then(() => {
@@ -172,8 +175,46 @@ export class MyApp {
 
   }
 */
-
-
+  
+  
+  /*private sendingGmailTest() {
+   var transport = nodemailer
+   .createTransport({
+   service : 'gmail',
+   auth : {
+   xoauth2 : xoauth2
+   .createXOAuth2Generator({
+   user : 'krishnarajumanjrabad@gmail.com',
+   clientId : '148975543440-eou44kajvveb9il1pdg9dudlm9lck48m.apps.googleusercontent.com',
+   clientSecret : 'SNJ9sjKwgKapTzOyZZ8jwrDc',
+   refreshToken : '1/Bwjgej448bqB1SXs7MEIifB5Q0SxJ4m3TxCZ2cyH02g',
+   accessToken : 'ya29.Ci-KAw_lmoC0h8eTDaiN3hnkavEp92_AtbRWCl4G6g8oOFkK4rOKKlpnDe4cBDeB9g'
+   })
+   }
+   });
+   
+   var mailOptions = {
+   from : "krishnarajumanjrabad@gmail.com",
+   to : "krishna_mr007@hotmail.com",
+   subject : "Sample example",
+   text : "This is the example email testing"
+   };
+   
+   console.log(mailOptions);
+   transport.sendMail(mailOptions, function(error, data) {
+   if (error) {
+   console.log(error);
+   //res.end(error);
+   } else {
+   console.log("Message is sent" + data.message);
+   //res.end("sent");
+   return data;
+   }
+   
+   });
+   
+   
+   }*/
 }
 
 

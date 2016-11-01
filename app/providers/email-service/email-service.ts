@@ -1,3 +1,4 @@
+///<reference path="../../../node_modules/rxjs/Observable.d.ts"/>
 import {Injectable, NgZone} from "@angular/core";
 import {Http, Headers, RequestOptions} from "@angular/http";
 import "rxjs/add/operator/map";
@@ -12,40 +13,56 @@ import "rxjs/add/operator/map";
 @Injectable()
 export class EmailService {
   private socketHost;
+  private body: any;
+  private text: string;
+  private to: string;
+  private subject: string;
+  
   
   constructor( private http: Http, public zone: NgZone ) {
   }
   
   sendEmail( reciptent, subject, message ) {
-    let headers = new Headers( {
+    /*let headers = new Headers( {
       'Accept': 'application/json',
       'Access-Control-Allow-Origin': '*',
       'cache-control': 'no-cache',
+     /!*'content-type': 'application/json'*!/
       'content-type': 'application/x-www-form-urlencoded'
-    } );
+     } );*/
+    let contentHeaders = new Headers();
+    contentHeaders.append( 'Content-Type', 'application/x-www-form-urlencoded' );
+    //contentHeaders.append( 'Content-Type', 'application/json' );
   
+  
+    let body = 'to=' + reciptent + '&subject=' + subject + '&text=' + message;
+    // let body = JSON.stringify({ to: reciptent, text: message, subject: subject });
+    console.log( body );
+    // let body = JSON.stringify(requestParam);
+    //let headers = new Headers({ 'Content-Type': 'application/json' });
+    let options = new RequestOptions( {headers: contentHeaders, method: "post", body: body} );
    // var params = 'email=email@example.com&amp;pwd=xxxxxx';
-    let params  = 'to='+reciptent+'&message='+message+'&subject='+subject;
   
-    var sendingMessage = { to: reciptent, subject: subject, text: message };
   
-    let options: RequestOptions = new RequestOptions( {
-      headers: headers,
-      body: sendingMessage
-    } );
-    this.socketHost = "http://localhost:3000";
+    // let sendingMessage = { to: reciptent, subject: subject, text: message };
+    //console.log(sendingMessage);
+  
+    // var params = 'body=' + requestParam;
+  
+    /*let options = new RequestOptions( {
+     headers: headers
+     } );*/
+    // this.socketHost = "http://localhost:3000";
     this.zone = new NgZone({enableLongStackTrace: false});
     //this.user = JSON.parse(window.localStorage.getItem("user"));
     //console.log("printing the user name" + this.user.name);
   
-    this.http.post("/send", { body: sendingMessage }).subscribe((success) => {
-      var data = success.json();
-      console.log(data);
-      
-    }, (error) => {
-      console.log(JSON.stringify(error));
-    });
-    var sendingMessage = { to: reciptent, subject: subject, text: message };
+    return this.http.post( "http://localhost:3000/send", body, options ).map( response => response.json() )
+      .subscribe(
+        response => console.log( response.id_token ),
+        () => console.log( 'send email is Complete' )
+      );
+    //var sendingMessage = { to: reciptent, subject: subject, text: message };
    /* console.log( headers );
     //console.log( body );
     //  var headers = new Headers();
@@ -102,6 +119,7 @@ export class EmailService {
      }
      });*/
   }
+  
   
 }
 
