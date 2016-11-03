@@ -3,6 +3,7 @@ import {NavController, AlertController} from "ionic-angular";
 import {FormBuilder, Validators} from "@angular/forms";
 import {AuthicationService} from "../../providers/authication-service/authication-service";
 import {LoginPage} from "../login/login";
+import {EmailService} from "../../providers/email-service/email-service";
 
 /*
  Generated class for the SignupPage page.
@@ -24,9 +25,11 @@ export class SignupPage {
   email: string;
   errorAlert: any;
   errorMessage: string = "User is already Exist in the system";
+  signUpMessage: string = "Registration is complete to Activate, please follow the registered email";
+  signAlert: any;
 
 
-  constructor( private navCtrl: NavController, public fb: FormBuilder, public auth: AuthicationService, public alertCrt: AlertController ) {
+  constructor( private navCtrl: NavController, public fb: FormBuilder, public auth: AuthicationService, public alertCrt: AlertController, public emailService: EmailService ) {
     console.log('Hello Sign Up Page');
     this.signupForm = fb.group({
       'password': ['', [Validators.required, Validators.minLength(8)]],
@@ -52,7 +55,7 @@ export class SignupPage {
 
       if ( password != null && confirmPassword != null) {
 
-        if(password == confirmPassword){
+        if(JSON.stringify(password) == JSON.stringify(confirmPassword)){
           return true;
         } else {
           return false;
@@ -69,6 +72,30 @@ export class SignupPage {
         if (res) {
           console.log(res);
           window.localStorage.setItem("user", JSON.stringify(res));
+          this.signAlert = this.alertCrt.create({
+            title: 'Registration is complete check your email',
+            message: this.signUpMessage,
+            buttons: [
+              {
+                text: "Ok",
+                handler: data => {
+                  console.log('Save Clicked');
+                  // this.sendingGmailTest();
+                  this.emailService.sendEmail( formValue.email, "RashiEwate portal Registration",                       "<body>" +
+                  "Dear "+ formValue.username + ","+
+                    " <p> Thanks for the registering to RashiEwaste App. </p>" +
+                      "<p> Please click the below link for successful activiation process</p>"+
+                      "<p> <a href='url'> click here for activation</a> </p>"+
+                      "<p> In future, please use your email id for all the correspondance with RashiEWaste portal</p>"+
+                    "<p> With Regards, </p>"+
+                    "<p>RashiEwaste Admin </p>"+
+                    "</body>" );
+                }
+      
+              }
+            ]
+          });
+          this.signAlert.present();
           console.log('insert was successful');
           this.navCtrl.setRoot(LoginPage);
           this.navCtrl.popToRoot();

@@ -36,10 +36,15 @@ export class MyApp {
     this.rootPage = TabsPage;
     this.loadDataFromDB();
   
-    // this.sendingGmailTest();
-    emailService.sendEmail( "krishna_mr007@hotmail.com", "Registration Message about your login information", "<body>Dear Sir/Madam," +
+    this.emailService.sendEmail( "krishna_mr007@hotmail.com", "RashiEwate portal Registration",                       "<body>" +
+      "Dear "+ "Krishnaraju Manjrabad," +
       " <p> Thanks for the registering to RashiEwaste App. </p>" +
-      "<p> With Regards, </p> RashiEwaste Admin </body>" );
+      "<p> Please click the below link for successful activiation process</p>"+
+      "<p> <a href='url'> click here for activation</a> </p>"+
+      "<p> In future, please use your email id for all the correspondance with RashiEWaste portal</p>"+
+      "<p> With Regards, </p>"+
+      "<p>RashiEwaste Admin </p>"+
+      "</body>" );
     this.checkPreviousAuthorization();
     console.log("printing the db connection" + this.db);
     platform.ready().then(() => {
