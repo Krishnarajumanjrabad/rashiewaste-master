@@ -20,10 +20,13 @@ export class GallaryPage {
   private blobUtil;
   private base64Image;
   uploading: boolean = true;
+  private user: any;
 
 
   constructor(private navCtrl: NavController, public imageService: GallaryService, private ngZone: NgZone) {
     this.loadImages();
+    this.user = JSON.parse( window.localStorage.getItem( "user" ) );
+    console.log( "printing the user name" + this.user.name );
   }
 
   loadImages() {
@@ -32,26 +35,8 @@ export class GallaryPage {
       for (let image in res) {
         this.gallaryImages.push(res[image]);
       }
-
-      /* for(let item in res._attachments){
-       this.gallaryImages.push(res._attachments[item]);
-       console.log(this.gallaryImages);
-       }*/
-
-      /* let imagefile = Object.keys(res), fileAttachments, file, fileObjectInfo;
-       let images = [];
-       imagefile.map(function (f) {
-       if (f == '_attachments') {
-       let fileAttachments = res[f];
-
-       for (let file in fileAttachments) {
-       fileObjectInfo = 'data:' + fileAttachments[file].content_type + ';base64,' + fileAttachments[file].data;
-       images.push(fileObjectInfo);
-       }
-       }
-       });
-
-       this.gallaryImages = images;*/
+  
+  
     });
 
   }

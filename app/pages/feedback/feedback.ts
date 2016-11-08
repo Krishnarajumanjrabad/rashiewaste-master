@@ -25,8 +25,14 @@ export class FeedbackPage {
   feedBackList = [];
   feebBackHeaderList: any[] = [];
   noteMessage: string = "Thank You for the sharing the Feedback with US";
+  user: any;
 
   constructor(private navCtrl: NavController, public fb: FormBuilder, public feedBackService: FeedbackService, public alertCrt: AlertController) {
+  
+    this.user = JSON.parse( window.localStorage.getItem( "user" ) );
+    console.log( "printing the user name" + this.user.name );
+   
+   
     this.feedbackForm = fb.group({
       'fname': ['', Validators.required],
       'lname': ['', Validators.required],

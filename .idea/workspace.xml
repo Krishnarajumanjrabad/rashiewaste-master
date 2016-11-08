@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1b3b8e-424f-4c41-aa88-9110875ee806" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/providers/email-service/email-service.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/ts.eclipse.ide.core.prefs" afterPath="$PROJECT_DIR$/.settings/ts.eclipse.ide.core.prefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.ts" afterPath="$PROJECT_DIR$/app/app.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/signup/signup.ts" afterPath="$PROJECT_DIR$/app/pages/signup/signup.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/appointment/appointment.html" afterPath="$PROJECT_DIR$/app/pages/appointment/appointment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html" afterPath="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts" afterPath="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/event-booking/event-booking.html" afterPath="$PROJECT_DIR$/app/pages/event-booking/event-booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/feedback/feedback.html" afterPath="$PROJECT_DIR$/app/pages/feedback/feedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/feedback/feedback.ts" afterPath="$PROJECT_DIR$/app/pages/feedback/feedback.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/gallary/gallary.html" afterPath="$PROJECT_DIR$/app/pages/gallary/gallary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/gallary/gallary.ts" afterPath="$PROJECT_DIR$/app/pages/gallary/gallary.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.html" afterPath="$PROJECT_DIR$/app/pages/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.ts" afterPath="$PROJECT_DIR$/app/pages/home/home.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/send-photos/send-photos.html" afterPath="$PROJECT_DIR$/app/pages/send-photos/send-photos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/send-photos/send-photos.ts" afterPath="$PROJECT_DIR$/app/pages/send-photos/send-photos.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/webchat/webchat.ts" afterPath="$PROJECT_DIR$/app/pages/webchat/webchat.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/providers/authication-service/authication-service.ts" afterPath="$PROJECT_DIR$/app/providers/authication-service/authication-service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts" afterPath="$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/providers/email-service/email-service.ts" afterPath="$PROJECT_DIR$/app/providers/email-service/email-service.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic.config.json" afterPath="$PROJECT_DIR$/ionic.config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <list id="5c40bee2-dc66-47c4-b2b2-c1a62dcd5559" name="New changelist" comment="" />
     <ignored path="rashiewaste.iws" />
@@ -35,90 +52,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="email-service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/providers/email-service/email-service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="33" column="77" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ionic.config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic.config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <marker date="1478019191275" expanded="true" signature="3143:5955" ph="{...}" />
-                <marker date="1478019191275" expanded="true" signature="3152:3423" ph="/*...*/" />
-                <marker date="1478019191275" expanded="true" signature="3466:3623" ph="/*...*/" />
-                <marker date="1478019191275" expanded="true" signature="3628:3875" ph="/*...*/" />
-                <marker date="1478019191275" expanded="true" signature="3880:3976" ph="//..." />
-                <marker date="1478019191275" expanded="true" signature="3979:4107" ph="/*...*/" />
-                <marker date="1478019191275" expanded="true" signature="4167:4649" ph="{&quot;service&quot;: 'gmail'...}" />
-                <marker date="1478019191275" expanded="true" signature="4205:4643" ph="{...}" />
-                <marker date="1478019191275" expanded="true" signature="4255:4634" ph="{&quot;user&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
-                <marker date="1478019191275" expanded="true" signature="4677:4927" ph="{&quot;from&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
-                <marker date="1478019191275" expanded="true" signature="4974:5210" ph="{...}" />
-                <marker date="1478019191275" expanded="true" signature="5032:5202" ph="{...}" />
-                <marker date="1478019191275" expanded="true" signature="5051:5092" ph="{...}" />
-                <marker date="1478019191275" expanded="true" signature="5098:5194" ph="{...}" />
-                <marker date="1478019191275" expanded="true" signature="5218:5948" ph="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/pages/signup/signup.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pages/signup/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authication-service.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="authication-service.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="131" column="19" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="19" />
+            <state relative-caret-position="-598">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typings/globals/require/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="388" column="0" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallary.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/gallary/gallary.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -127,34 +89,63 @@
       <file leaf-file-name="feedback.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="18" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="304">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webchat.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.ts">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send-photo-services.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts">
+      <file leaf-file-name="connectivity-service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-266">
+              <caret line="50" column="43" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="10" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enquiry-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enquiry-form.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1178">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="37" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,34 +177,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/binding.gyp" />
-        <option value="$PROJECT_DIR$/build/binding.sln" />
-        <option value="$PROJECT_DIR$/node_modules/ws/README.md" />
-        <option value="$PROJECT_DIR$/app/pages/appointment/appointment.scss" />
-        <option value="$USER_HOME$/.WebStorm2016.2/webstorm64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/app/pages/feedback/feedback.ts" />
         <option value="$PROJECT_DIR$/app/providers/feedback-service/feedback-service.ts" />
-        <option value="$PROJECT_DIR$/app/pages/gallary/gallary.html" />
-        <option value="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html" />
         <option value="$PROJECT_DIR$/app/providers/enquiry-service/enquiry-service.ts" />
-        <option value="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts" />
         <option value="$PROJECT_DIR$/app/pages/appointment/appointment.ts" />
-        <option value="$PROJECT_DIR$/app/pages/appointment/appointment.html" />
         <option value="$PROJECT_DIR$/app/pages/event-booking/event-booking.ts" />
         <option value="$PROJECT_DIR$/app/providers/events-publisher/events-publisher.ts" />
         <option value="$PROJECT_DIR$/node_modules/pouchdb-lru-cache/pouch-utils.js" />
         <option value="$PROJECT_DIR$/node_modules/socket.io-client/socket.io.js" />
-        <option value="$PROJECT_DIR$/app/providers/authication-service/authication-service.ts" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/app/pages/gallary/gallary.ts" />
         <option value="$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts" />
-        <option value="$PROJECT_DIR$/app/pages/event-booking/event-booking.html" />
-        <option value="$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts" />
-        <option value="$PROJECT_DIR$/typings/globals/require/index.d.ts" />
         <option value="$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts" />
-        <option value="$PROJECT_DIR$/app/pages/send-photos/send-photos.ts" />
-        <option value="$PROJECT_DIR$/app/pages/send-photos/send-photos.html" />
-        <option value="$PROJECT_DIR$/app/pages/webchat/webchat.ts" />
         <option value="$PROJECT_DIR$/app/pages/webchat/webchat.scss" />
         <option value="$PROJECT_DIR$/app/pages/webchat/webchat.html" />
         <option value="$USER_HOME$/Downloads/client_secret_56089748144-3s1buno3980o4bevvjrhc4rbe4u2l476.apps.googleusercontent.com.json" />
@@ -223,20 +195,39 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/ionic-gulp-browserify-typescript/node_modules/browser-pack/index.js" />
         <option value="$PROJECT_DIR$/node_modules/browser-pack/index.js" />
-        <option value="$PROJECT_DIR$/app/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/app/pages/tabs/tabs.ts" />
         <option value="$PROJECT_DIR$/app/theme/app.core.scss" />
         <option value="$PROJECT_DIR$/app/pages/home/home.scss" />
-        <option value="$PROJECT_DIR$/app/pages/home/home.html" />
         <option value="$PROJECT_DIR$/app/pages/tabs/tabs.html" />
         <option value="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html" />
         <option value="$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts" />
         <option value="$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/ionic.config.json" />
-        <option value="$PROJECT_DIR$/app/providers/email-service/email-service.ts" />
-        <option value="$PROJECT_DIR$/app/app.ts" />
         <option value="$PROJECT_DIR$/app/pages/signup/signup.ts" />
+        <option value="$PROJECT_DIR$/ionic.config.json" />
+        <option value="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" />
+        <option value="$PROJECT_DIR$/platforms/android/project.properties" />
+        <option value="$PROJECT_DIR$/platforms/android/build.gradle" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/app/providers/email-service/email-service.ts" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/app/app.ts" />
+        <option value="$PROJECT_DIR$/app/pages/gallary/gallary.ts" />
+        <option value="$PROJECT_DIR$/app/pages/event-booking/event-booking.html" />
+        <option value="$PROJECT_DIR$/app/pages/appointment/appointment.html" />
+        <option value="$PROJECT_DIR$/app/pages/send-photos/send-photos.html" />
+        <option value="$PROJECT_DIR$/app/pages/send-photos/send-photos.ts" />
+        <option value="$PROJECT_DIR$/app/pages/home/home.ts" />
+        <option value="$PROJECT_DIR$/app/pages/webchat/webchat.ts" />
+        <option value="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts" />
+        <option value="$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html" />
+        <option value="$PROJECT_DIR$/app/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/typings/globals/require/index.d.ts" />
+        <option value="$PROJECT_DIR$/app/pages/gallary/gallary.html" />
+        <option value="$PROJECT_DIR$/app/pages/feedback/feedback.ts" />
+        <option value="$PROJECT_DIR$/app/pages/feedback/feedback.html" />
+        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/providers/authication-service/authication-service.ts" />
+        <option value="$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts" />
       </list>
     </option>
   </component>
@@ -261,7 +252,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1932" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -334,6 +325,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connectivity-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rashiewaste-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authication-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -348,22 +415,22 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="D:\rashiewaste\node_modules\gulp" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/AppData/Roaming/npm/node_modules/grunt-cli" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rashiewaste-master\certificate" />
+      <recent name="D:\rashiewaste\app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\rashiewaste-master\app\pages\product-catalog" />
       <recent name="D:\rashiewaste-master\certificate\cert" />
       <recent name="D:\rashiewaste-master\cert" />
       <recent name="D:\rashiewaste-master\etc" />
       <recent name="D:\rashiewaste-master" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rashiewaste-master\certificate" />
-      <recent name="D:\rashiewaste\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -495,7 +562,12 @@
       <workItem from="1477923067734" duration="10077000" />
       <workItem from="1478017879765" duration="1346000" />
       <workItem from="1478059946875" duration="21000" />
-      <workItem from="1478188856759" duration="160000" />
+      <workItem from="1478188856759" duration="4460000" />
+      <workItem from="1478277737633" duration="792000" />
+      <workItem from="1478278687886" duration="1611000" />
+      <workItem from="1478363700308" duration="17939000" />
+      <workItem from="1478607991827" duration="62000" />
+      <workItem from="1478630374211" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user.">
       <created>1475639604101</created>
@@ -574,36 +646,43 @@
       <option name="project" value="LOCAL" />
       <updated>1478017928560</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implemented log validation&#10;&#10;TODO sending the email to acceptance from the user.">
+      <created>1478189047192</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1478189047192</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="672260000" />
+    <option name="totallyTimeSpent" value="700648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1938349" sideWeight="0.49602723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27745664" sideWeight="0.4972261" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2752779" sideWeight="0.49602723" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.50277394" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32790446" sideWeight="0.4974359" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32601157" sideWeight="0.4974359" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2804878" sideWeight="0.50397277" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25925925" sideWeight="0.4972261" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256936" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -631,28 +710,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts</url>
-          <line>87</line>
+          <line>85</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts</url>
-          <line>86</line>
+          <line>84</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts</url>
-          <line>85</line>
+          <line>83</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/pages/login/login.ts</url>
           <line>64</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/gallary/gallary.ts</url>
-          <line>40</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts</url>
@@ -663,11 +737,6 @@
           <url>file://$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts</url>
           <line>161</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/pages/gallary/gallary.ts</url>
-          <line>42</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/providers/enquiry-service/enquiry-service.ts</url>
@@ -711,22 +780,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/app.ts</url>
-          <line>185</line>
+          <line>37</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/app.ts</url>
-          <line>208</line>
+          <line>60</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/app.ts</url>
-          <line>213</line>
+          <line>65</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/app.ts</url>
-          <line>214</line>
+          <line>66</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
@@ -735,435 +804,343 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.scss">
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="26" column="64" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.scss">
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/gallary/gallary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/navigate-to/navigate-to.html">
+    <entry file="file://$PROJECT_DIR$/platforms/android/android.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4446">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/email-service/email-service.js" />
+    <entry file="file://$PROJECT_DIR$/app/pages/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/gallary/gallary.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/event-booking/event-booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="44" selection-end-column="75" />
+        <state relative-caret-position="76">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/client_secret_56089748144-3s1buno3980o4bevvjrhc4rbe4u2l476.apps.googleusercontent.com.json">
+    <entry file="file://$PROJECT_DIR$/app/pages/appointment/appointment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="38">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.ts">
+    <entry file="file://$PROJECT_DIR$/app/pages/appointment/appointment.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="53" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="53" />
+        <state relative-caret-position="646">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.credentials/client_secret.json">
+    <entry file="file://$PROJECT_DIR$/app/providers/events-publisher/events-publisher.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/pki_krishna/myCA/openssl.my.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certificate/cert/server-crt.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certificate/cert/server-key.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certificate/cert/server.crt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/requirejs/bin/r.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303991">
-          <caret line="24700" column="8" selection-start-line="24700" selection-start-column="8" selection-end-line="24700" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/build/js/app.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="70396" column="50" selection-start-line="70396" selection-start-column="50" selection-end-line="70396" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/ca.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1648">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ionic/node_modules/ionic-app-lib/node_modules/cordova-lib/node_modules/cordova-js/node_modules/browserify/node_modules/browser-pack/test/source-maps-existing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-pack/test/source-maps-existing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ionic-gulp-browserify-typescript/node_modules/browser-pack/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-pack/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="-2802">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="62" column="16" selection-start-line="51" selection-start-column="5" selection-end-line="62" selection-end-column="16" />
+        <state relative-caret-position="660">
+          <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/contact/contact.html">
+    <entry file="file://$PROJECT_DIR$/app/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/contact/contact.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/tabs/tabs.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/theme/app.core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/tabs/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/gallary-service/gallary-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="32" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!block;n#loadImage#0;n#GallaryService#0" expanded="false" />
-            <element signature="e#1001#1321#0" expanded="false" />
-            <element signature="e#1099#1262#0" expanded="false" />
-            <element signature="e#1279#1314#0" expanded="false" />
-            <element signature="n#!!block;n#uploadImage#0;n#GallaryService#0" expanded="false" />
-            <element signature="e#1557#2891#0" expanded="false" />
-            <element signature="e#1737#2879#0" expanded="false" />
-            <element signature="e#1972#2179#0" expanded="false" />
-            <element signature="e#2196#2277#0" expanded="false" />
-            <element signature="e#2294#2372#0" expanded="false" />
-            <element signature="e#2484#2687#0" expanded="false" />
-            <element signature="e#2710#2756#0" expanded="false" />
-            <element signature="e#2773#2851#0" expanded="false" />
-            <element signature="n#!!block;n#blobEquals#0;n#GallaryService#0" expanded="false" />
-            <element signature="e#2984#3364#0" expanded="false" />
-            <element signature="e#3060#3318#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/product-catalog/product-catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2368">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/product-catalog/product-catalog.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/product-catalog-service/product-catalog-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3232">
-          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#ProductCatalogService#0" expanded="false" />
-            <element signature="e#3153#3391#0" expanded="false" />
-            <element signature="e#3572#3802#0" expanded="false" />
-            <element signature="e#4494#4732#0" expanded="false" />
-            <element signature="n#!!block;n#saveProdctInformation#0;n#ProductCatalogService#0" expanded="false" />
-            <element signature="e#5801#8457#0" expanded="false" />
-            <element signature="e#5895#6061#0" expanded="false" />
-            <element signature="e#6266#8446#0" expanded="false" />
-            <element signature="e#6410#6599#0" expanded="false" />
-            <element signature="e#6835#8433#0" expanded="false" />
-            <element signature="e#6957#7176#0" expanded="false" />
-            <element signature="e#7730#8418#0" expanded="false" />
-            <element signature="e#7844#8048#0" expanded="false" />
-            <element signature="e#8984#9546#0" expanded="false" />
-            <element signature="e#9080#9248#0" expanded="false" />
-            <element signature="n#!!block;n#getProductImagePhotos#0;n#ProductCatalogService#0" expanded="false" />
-            <element signature="e#9644#9793#0" expanded="false" />
-            <element signature="e#9707#9784#0" expanded="false" />
-            <element signature="n#!!block;n#getImageAttachments#0;n#ProductCatalogService#0" expanded="false" />
-            <element signature="e#9935#10387#0" expanded="false" />
-            <element signature="e#10032#10378#0" expanded="false" />
-            <element signature="e#10201#10296#0" expanded="false" />
-            <element signature="e#10317#10358#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="715">
+          <caret line="46" column="18" selection-start-line="38" selection-start-column="6" selection-end-line="46" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/providers/email-service/email-service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="77" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="77" />
-          <folding />
+        <state relative-caret-position="276">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.ts">
+    <entry file="file://$PROJECT_DIR$/app/pages/send-photos/send-photos.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        <state relative-caret-position="-2166">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2574">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1478019191275" expanded="true" signature="3143:5955" ph="{...}" />
-            <marker date="1478019191275" expanded="true" signature="3152:3423" ph="/*...*/" />
-            <marker date="1478019191275" expanded="true" signature="3466:3623" ph="/*...*/" />
-            <marker date="1478019191275" expanded="true" signature="3628:3875" ph="/*...*/" />
-            <marker date="1478019191275" expanded="true" signature="3880:3976" ph="//..." />
-            <marker date="1478019191275" expanded="true" signature="3979:4107" ph="/*...*/" />
-            <marker date="1478019191275" expanded="true" signature="4167:4649" ph="{&quot;service&quot;: 'gmail'...}" />
-            <marker date="1478019191275" expanded="true" signature="4205:4643" ph="{...}" />
-            <marker date="1478019191275" expanded="true" signature="4255:4634" ph="{&quot;user&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
-            <marker date="1478019191275" expanded="true" signature="4677:4927" ph="{&quot;from&quot;: 'krishnarajumanjrabad@gmail.com'...}" />
-            <marker date="1478019191275" expanded="true" signature="4974:5210" ph="{...}" />
-            <marker date="1478019191275" expanded="true" signature="5032:5202" ph="{...}" />
-            <marker date="1478019191275" expanded="true" signature="5051:5092" ph="{...}" />
-            <marker date="1478019191275" expanded="true" signature="5098:5194" ph="{...}" />
-            <marker date="1478019191275" expanded="true" signature="5218:5948" ph="/*...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/signup/signup.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/signup/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="131" column="19" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#button#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/webchat/webchat.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="-1444">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/splash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5016">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/recycleLogo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/mipmap-hdpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/mipmap-ldpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/mipmap-mdpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/mipmap-xhdpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/globals/require/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="388" column="0" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/gallary/gallary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/providers/send-photo-services/send-photo-services.ts">
+    <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="304">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/enquiry-form/enquiry-form.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="37" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/feedback/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#button#0;n#span#0;n#div#0;n#ion-navbar#0;n#ion-header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/connectivity-service/connectivity-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/providers/authication-service/authication-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

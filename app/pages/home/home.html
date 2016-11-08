@@ -18,7 +18,8 @@
     </ion-grid>
     <div>
       <span
-        style=" position: absolute;top: 55px; right: 3px; text-align: right; color: white;"><small>Welcome {{user.name}}</small></span>
+        style=" position: absolute;top: 65px; right: 3px; text-align: right; color: white;"><small>Welcome
+        {{user.name}}</small></span>
     </div>
   </ion-navbar>
 </ion-header>
@@ -156,8 +157,9 @@
     <ion-row>
 
       <ion-col width-33>
-        <button ion-button color="danger" large block full (click)="openEventsPage()">
+        <button ion-button color="danger" large block full icon-middle icon-only (click)="openEventsPage()">
           <ion-icon name="list-box"></ion-icon>
+
         </button>
         <ion-label align="center">Our Events</ion-label>
       </ion-col>
@@ -181,8 +183,8 @@
   </ion-grid>
 </ion-content>
 
-<ion-footer style="height: 50px;bottom: 84px;">
-  <ion-toolbar secondary>
+<ion-footer style="height:75px;bottom: 84px;">
+  <ion-toolbar secondary align="top">
     <ion-title text-left>
       <small><img src="build/images/copyright.jpg" style="height:13px;width:13px;"/>2013 Rashi E Waste. All Rights
         Reserved.

@@ -8,7 +8,7 @@
 
   <ion-navbar danger>
     <ion-title><span style="color: white"><h4>Enquiry Form</h4></span></ion-title>
-    <div>
+    <div *ngIf="user.role == 'admin'">
       <span
         style=" position: absolute;top: 30px; right: 5px; text-align: right; color: white;"><button ion-button small
                                                                                                     danger end
@@ -21,7 +21,7 @@
 
 
 <ion-content padding>
-  <div *ngIf="enquriesList != null && enquriesList.length > 0" class="row">
+  <div *ngIf="enquriesList != null && user.role == 'admin'" class="row">
     <h4> Displaying the enquiry information for Admin User only</h4>
     <ion-grid>
       <ion-row>

@@ -9,8 +9,7 @@
   <ion-navbar danger>
     <ion-title>Feed Back Form</ion-title>
 
-
-    <div>
+    <div *ngIf="user.role == 'admin' ">
       <span
         style=" position: absolute;top: 30px; right: 5px; text-align: right; color: white;"><button ion-button small
                                                                                                     danger end

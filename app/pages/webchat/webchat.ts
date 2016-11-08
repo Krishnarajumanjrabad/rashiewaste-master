@@ -3,7 +3,7 @@ import {Http, Headers, RequestOptions} from "@angular/http";
 import "rxjs/add/operator/map";
 
 declare let require: Require;
-var io = require('socket.io-client');
+var io = require( "socket.io-client" );
 
 /*
  Generated class for the WebchatPage page.
@@ -26,9 +26,10 @@ export class WebchatPage {
   constructor(http: Http, zone: NgZone) {
     //this.messages = [];
     this.socketHost = "http://localhost:3000";
+    // this.socketHost = "http://192.168.1.100:3000";
     let headers = new Headers( {
       'Accept': 'application/json',
-      'Access-Control-Allow-Origin': 'http://localhost:8100',
+      'Access-Control-Allow-Origin': 'http://localhost:3000',
       'cache-control': 'no-cache',
       'content-type': 'application/x-www-form-urlencoded'
      } );
@@ -51,7 +52,7 @@ export class WebchatPage {
     });
 
     this.chatBox = "";
-    this.socket = io(this.socketHost);
+    this.socket = io.connect( this.socketHost );
     this.socket.on("chat_message", (msg) => {
       this.zone.run(() => {
         this.messages.push({id: msg.id, message: msg.message});

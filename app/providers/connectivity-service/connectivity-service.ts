@@ -35,6 +35,8 @@ export class ConnectivityService {
 
   static getDatabaseConnection() {
     this.DB_IP_ADD = "localhost";
+    //this.DB_IP_ADD = "192.168.1.100";
+    //this.DB_IP_ADD = "localhost";
 
     this.DB_PORT = "5984";
 
@@ -48,17 +50,6 @@ export class ConnectivityService {
       //this.localdb = new PouchDB(this.DB_NAME);
       console.log("Connected===>" + this.db);
     }
-    /* this.localdb.sync(this.db, {live: true});
-     this.localdb.replicate.to(this.db).on('complete', function () {
-     // yay, we're done!
-     }).on('error', function (err) {
-     console.log(err);
-     });
-     this.db.replicate.to(this.localdb, {
-     doc_ids: ['lru__', 'users']
-     });
-     this.localdb.sync(this.db, {live: true});
-     console.log("Connected===>" + this.db);*/
     return this.db;
   }
 

@@ -56,8 +56,9 @@ export class EmailService {
     this.zone = new NgZone({enableLongStackTrace: false});
     //this.user = JSON.parse(window.localStorage.getItem("user"));
     //console.log("printing the user name" + this.user.name);
-  
-    return this.http.post( "http://localhost:3000/send", body, options ).map( response => response.json() )
+    // var hostURL = "http://localhost:3000/send";
+    var hostURL = "http://192.168.1.100:3000/send";
+    return this.http.post( hostURL, body, options ).map( response => response.json() )
       .subscribe(
         response => console.log( response.id_token ),
         () => console.log( 'send email is Complete' )

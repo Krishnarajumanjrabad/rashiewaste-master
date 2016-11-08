@@ -3,6 +3,7 @@ import {NavController, AlertController} from "ionic-angular";
 import {FormBuilder, Validators} from "@angular/forms";
 import {EnquiryService} from "../../providers/enquiry-service/enquiry-service";
 import {TabsPage} from "../tabs/tabs";
+import {EmailService} from "../../providers/email-service/email-service";
 
 
 /*
@@ -22,13 +23,18 @@ export class EnquiryFormPage {
   telephone: string;
   email: string;
   enquriesList: any[] = [];
-
+  
+  user: any;
   errorAlert: any;
   noteMessage: string = "Thank You for the posting enquiry; team shall get back to you";
-
-  constructor(private navCtrl: NavController, public fb: FormBuilder, public enquiry: EnquiryService, public alertCrt: AlertController) {
+  
+  constructor( private navCtrl: NavController, public fb: FormBuilder, public enquiry: EnquiryService, public emailService: EmailService, public alertCrt: AlertController ) {
 
     console.log('Hello Enquiry Page Information');
+    
+    this.user = JSON.parse( window.localStorage.getItem( "user" ) );
+    console.log( "printing the user name" + this.user.name );
+    
     this.enquiryForm = fb.group({
       'name': ['', Validators.required],
       'comment': ['', Validators.required],
@@ -89,6 +95,14 @@ export class EnquiryFormPage {
 
           handler: data => {
             console.log('Save Clicked');
+            this.emailService.sendEmail( "info@rashiewate.com", "RashiEwate Enquiry Information" +
+              " Notification", "<body>" +
+              "Dear " + this.user.name + "," +
+              " <p> Thanks for the posting the enquiry information. </p>" +
+              "<p> " + this.noteMessage +
+              "<p> With Regards, </p>" +
+              "<p>RashiEwaste Admin </p>" +
+              "</body>" );
 
           }
 

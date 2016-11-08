@@ -40,7 +40,15 @@
     <div *ngIf="contactNumber.hasError('required') && contactNumber.touched" class="error-box"> *Contact Telephone
       Number is required !
     </div>
-
+    <ion-item>
+      <ion-label stacked><span class="input-label">Inspection Information</span></ion-label>
+      <ion-textarea type="text" formControlName="inspectionInfo"
+                    placeholder="Pls enter the insepection information"
+                    value=""></ion-textarea>
+    </ion-item>
+    <div *ngIf="inspectionInfo.hasError('required') && inspectionInfo.touched" class="error-box"> *Inspection
+      information is required !
+    </div>
     <ion-item>
       <!--  <ion-label stacked><span class="input-label">Upload Photos</span></ion-label>-->
       <input type="file" multiple #input/>
@@ -83,6 +91,11 @@
             </ion-card-title>
             <p>Contact Person Name: {{imageinfo.company.contactName}}</p>
             <p>Contact Number: {{imageinfo.company.contactNumber}}</p>
+            <p>
+              <br>
+              Inspection Information Details:
+              {{imageinfo.inspectionInfo}}
+            </p>
           </ion-card-content>
         </ion-card>
 

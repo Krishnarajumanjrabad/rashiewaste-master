@@ -27,6 +27,12 @@
       <ion-item>
         <ion-input placeholder="Whom" [(ngModel)]="appointmentForm.whom"></ion-input>
       </ion-item>
+      <ion-item>
+        <ion-select [(ngModel)]="visitType">
+          <ion-option aria-valuetext="phone">phone</ion-option>
+          <ion-option aria-valuetext="visit">Visit</ion-option>
+        </ion-select>
+      </ion-item>
     </ion-list>
 
     <ion-list>

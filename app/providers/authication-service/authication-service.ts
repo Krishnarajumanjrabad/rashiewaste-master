@@ -27,10 +27,8 @@ export class AuthicationService {
   DB_NAME = 'users';
 
   constructor(public http: Http, public connectivityService: ConnectivityService) {
-    if (!(this.db == null || this.db == "UNDEFINED")) {
-      console.log("inside the else loop and obtained the db connection");
-      console.log(this.db);
-    } else {
+    if (this.db == null || this.db == "UNDEFINED") {
+      
       this.db = ConnectivityService.getDatabaseConnection();
       console.log("Auth service connected" + this.db);
     }

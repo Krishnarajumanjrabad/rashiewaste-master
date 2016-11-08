@@ -2,11 +2,5 @@
   "name": "ionic2-app-base",
   "app_id": "rashiEwasteApp",
   "typescript": true,
-  "v2": true,
-  "proxies": [
-    {
-      "path": "/send",
-      "proxyUrl": "http://localhost:3000/send"
-    }
-  ]
+  "v2": true
 }

@@ -22,6 +22,7 @@ export class SendPhotosPage {
   companyName: string;
   contactPerson: string;
   contactNumber: string;
+  inspectionInfo: string;
   uploadFile: any;
   DB_NAME: string = "sendPhotos";
   file: any;
@@ -32,6 +33,7 @@ export class SendPhotosPage {
     this.sendPhotoForm = fb.group({
       'companyName': ['', Validators.required],
       'contactPerson': ['', Validators.required],
+      'inspectionInfo': ['', Validators.required],
       'contactNumber': ['', [Validators.required, Validators.maxLength(10)]]
     });
 
@@ -40,6 +42,8 @@ export class SendPhotosPage {
     this.contactPerson = this.sendPhotoForm.controls['contactPerson'];
     this.contactNumber = this.sendPhotoForm.controls['contactNumber'];
     this.uploadFile = this.sendPhotoForm.controls['uploadFile'];
+    this.inspectionInfo = this.sendPhotoForm.controls['inspectionInfo'];
+    
 
     this.loadExistingSendPhotos();
   }

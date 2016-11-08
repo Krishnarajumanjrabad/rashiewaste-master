@@ -15,7 +15,7 @@
 
 
 <ion-content padding>
-  <div>
+  <div *ngIf="user.role=='admin'">
     <input type="file" multiple #input/>
 
     <button class="button-small" (click)="fileUpload()" danger>Upload File</button>
@@ -24,9 +24,10 @@
 
   <ion-grid>
     <ion-row *ngIf="gallaryImages.length > 0" style="flex-wrap: wrap;">
-      <ion-col width-50 *ngFor="let imageinfo of gallaryImages">
+      <ion-col width-33 *ngFor="let imageinfo of gallaryImages">
 
-        <img style="height: 200px;width: 300px;align-items: left" [src]="'data:image/jpeg;base64,'+imageinfo.data"
+        <img style="height: 200px;width: 100%;height: 400px; align-items: left"
+             [src]="'data:image/jpeg;base64,'+imageinfo.data"
              (click)="imageTapped($event,imageinfo)"/>
 
 
